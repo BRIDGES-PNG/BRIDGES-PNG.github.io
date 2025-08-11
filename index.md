@@ -8,17 +8,12 @@
 
 ** see you soon!**
 
-# About
+# ### BRIDGES Vision and Mission Statement
+The objective of the International Workshop on BRIdging Divides with Globally Engineered Software (BRIDGES) is to foster development by providing a forum where researchers and practitioners can report on and discuss issues and solutions to bridge the digital divide of information within a practical geographic-free global software engineering setting.
 
-<p style='text-align: justify;'>
-Software powers our everyday lives. The First International Workshop on Intertwining Research & Education on Software (WIREDS2024) is a pioneering initiative designed to bridge the gap between research and education within the Japanese software community to bring top class research to the global community. This workshop aims to foster an environment where expert researchers, students, educators, and practitioners can engage in meaningful dialogue about cutting-edge and disruptive innovations in software development and engineering.
-<br>
-<br>
-WIREDS2024 seeks to establish a local platform for the next generation of younger researchers in Japan by brining in rising stars from the global. The workshop is committed to cultivating a collaborative atmosphere that encourages the sharing of diverse perspectives, ultimately contributing to the growth and evolution of software research—not only in Japan but in a way that is mutually beneficial for the global community.
-<br>
-<br>
-The theme for WIREDS 2024 is the "Disruptive Innovation of Generative AI". We will be inviting experts from the Global SE community to share some ideas and provide feedback to our Japanese community. 
-</p>
+The workshop encourages the exchange of ideas within the local and international community with its ultimate goal to make software engineering universal; for anyone, anywhere, without any technical, cultural and educational boundaries. This involves a round-table discussion with invited talks from both local and international participants.
+
+
 
 
 # Why Attend?
