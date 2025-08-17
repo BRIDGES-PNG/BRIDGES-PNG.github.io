@@ -4,9 +4,7 @@
 
 # Summer School in The South Pacific  
 **Innovative Prototyping through AI and Open Source**  
-*January 9th – 12th, 2026*
-
-BRIDGES2026 presents the Summer School in The South Pacific, hosted in conjunction with **BRIDGES-PNG** *(January 7th – 11th, 2025)*.
+*January 9th – 11th, 2026*
 
 The Summer School is designed to provide participants with practical software solutions in a unique region of the world, while advancing the goal of making software engineering universal—accessible to anyone, anywhere, without technical, cultural, or educational barriers.
 
@@ -16,18 +14,15 @@ Previous editions:
 
 With the rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
 
-**Venue**: Loloata Island Resort, Port Moresby, Papua New Guinea  
-**Language**: English  
-**Duration**: 3 days  
-**Certificate**: Participants will receive a certificate of attendance  
+
+The 3-day program is taught in *English* and will be held at *Loloata Island Resort*, Port Moresby, Papua New Guinea.  
+Participants will receive a *certificate of attendance*.
+
+Please note: In contrast to previous editions, this Summer School will take place in *January* rather than *September*.
+  
 
 ---
 
-#  Why Attend?
-
-<p style='text-align: justify;'>
-Our goal is to facilitate a space for contributions, advice and discussions that align with these three activities:
-</p>
 
 - **Research**: Gain early feedback on your research from experts. Practise presentation skills, and seek potential collaborators.
 - **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
@@ -35,70 +30,55 @@ Our goal is to facilitate a space for contributions, advice and discussions that
 
 ---
 
-#  Tuition & Registration
+---
 
-## Tuition Fee
+##  Tuition Fee
 
 | Category        | Fee (PGK) | Deadline               |
 |----------------|-----------|------------------------|
-| Students        | Free      | —                      |
+| Students        | Free (30 spaces) | —                      |
 | Early Bird      | 400 PGK   | Register before Dec 1  |
 | Regular         | 600 PGK   | Register after Dec 1   |
 
-**Included**: Classes, course materials, lunches, coffee breaks, and social dinner  
-**Not Included**: Flights, transportation, and accommodation
+**Included**:  
+- All classes and course materials  
+- Lunches and coffee breaks  
+- Social dinner  
 
-To register, follow the instructions provided upon acceptance of your application. For inquiries, email: `bridges.png@gmail.com`
+**Not Included**:  
+- Flights  
+- Transportation  
+- Accommodation  
 
----
 
-#  Calls for Participation
+##  Schedule Note
 
-##  Call for Challenges  
-**Deadline**: September 17th, 2025  
-Submit a proposal (max 500 words) to `bridges.png@gmail.com` including:
-- Motivation and background
-- Use of software technologies
-- Dataset, use case, or existing systems
-
- Notification: Late October
-
-##  Call for International Participants  
-**Deadline**: November 14th, 2025  
-Apply by sending a cover letter (max 500 words) to `bridges.png@gmail.com`  
- If accepted, you’ll receive payment instructions.
-
-##  Call for Participants (General)  
-**Deadline**: November 14th, 2025  
-Apply by sending:
-- Cover letter (max 500 words)
-- Resume/CV  
- If accepted, you’ll receive payment instructions.
+Please note that, in contrast to previous editions, this edition of the school will take place in **January** rather than **September**. We have three calls.
 
 ---
 
-#  Topic of Interest
+##  CALL FOR CHALLENGES (Deadline September 17th, 2025)
 
-Topics include, but are not limited to:
-- AI-powered software prototyping
-- Open-source development in emerging regions
-- Inclusive software engineering practices
-- Visualization and augmented computing
-- Community-driven software ecosystems
+To submit a proposal for the summer school, please send `bridges.png@gmail.com` with a motivation and background details (500 words max) using software technologies in the solution. The challenge can involve a dataset, use case and existing systems.  
+If your application is accepted, you’ll receive the notification in late October.
 
 ---
 
-#  Important Dates
+##  CALL FOR INTERNATIONAL PARTICIPANTS (Deadline November 14th, 2025)
 
-| Date                      | Event                     |
-|---------------------------|---------------------------|
-| ~~November 1st 2024 (AOE)~~ **November 8th 2024 (AOE)** | Paper Submission Deadline |
-| ~~November 8th 2024 (AOE)~~ **November 15th, 2024 (AOE)** | Notifications             |
-| ~~November 15th 2024 (AOE)~~ **November 22nd, 2024 (AOE)** | Camera Ready              |
+To apply for the summer school, please send `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max).  
+If your application is accepted, you’ll receive instructions on how to proceed with the payment.
 
 ---
 
-#  Invited Guests
+## 👥 CALL FOR PARTICIPANTS PROCESS (Deadline November 14th, 2025)
+
+To apply for the summer school, please send `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max), as well as your resume CV.  
+If your application is accepted, you’ll receive instructions on how to proceed with the payment.
+---
+
+
+#  Confirmed Keynote Lecturers
 
 **Confirmed Keynote Lecturers**
 - Prof. Foutse Khomh
@@ -115,11 +95,6 @@ Topics include, but are not limited to:
 - Mrs. Winifred Kula (Bank of South Pacific)
 
 ---
-
-#  Venue
-
-**Summer School Venue**
-- Loloata Island Resort, Port Moresby, Papua New Guinea
 
 Find more details on the [Travel Information page](travel.md).
 
