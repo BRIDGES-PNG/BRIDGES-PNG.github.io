@@ -13,6 +13,27 @@ The objective of the International Workshop on BRIdging Divides with Globally En
 
 The workshop encourages the exchange of ideas within the local and international community with its ultimate goal to make software engineering universal; for anyone, anywhere, without any technical, cultural and educational boundaries. This involves a round-table discussion with invited talks from both local and international participants.
 
+# Summer School in The South Pacific  
+*Innovative Prototyping through AI and Open Source*  
+January 9th – 12th, 2026
+
+BRIDGES2026 presents the Summer School in The South Pacific, hosted in conjunction with *BRIDGES-PNG* (January 7th – 11th, 2025).
+
+The Summer School is designed to provide participants with practical software solutions in a unique region of the world, while advancing the goal of making software engineering universal—accessible to anyone, anywhere, without technical, cultural, or educational barriers.
+
+Previous editions:
+•⁠  ⁠[BRIDGES 2023](https://naist-se.github.io/PNG-BRIDGES)
+•⁠  ⁠[BRIDGES 2019](https://naist-se.github.io/BRIDGES2019)
+
+With the rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
+
+*Venue*: Loloata Island Resort, Port Moresby, Papua New Guinea  
+*Language*: English  
+*Duration*: 3 days  
+*Certificate*: Participants will receive a certificate of attendance  
+
+---
+
 
 
 
