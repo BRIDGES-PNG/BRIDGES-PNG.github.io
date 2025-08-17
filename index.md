@@ -1,6 +1,6 @@
-<!-- Logo and Group Photo -->
+
 <div style="text-align: center">
-  <img src="/img/logo.png" alt="Logo Image" style="width: 20%;">
+   style="width: 20%;">
 </div>
 
 <div style="text-align: center">
