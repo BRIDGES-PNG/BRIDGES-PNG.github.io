@@ -28,7 +28,6 @@ Please note: In contrast to previous editions, this Summer School will take plac
 - **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. We also aim to connect local Japanese researchers with rising scientists from the global community.
 
----
 
 ---
 
@@ -51,27 +50,25 @@ Please note: In contrast to previous editions, this Summer School will take plac
 - Accommodation  
 
 
-##  Schedule Note
-
 Please note that, in contrast to previous editions, this edition of the school will take place in **January** rather than **September**. We have three calls.
 
 ---
 
-##  CALL FOR CHALLENGES (Deadline September 17th, 2025)
+##  Call For Challenges (Deadline September 17th, 2025)
 
 To submit a proposal for the summer school, please send `bridges.png@gmail.com` with a motivation and background details (500 words max) using software technologies in the solution. The challenge can involve a dataset, use case and existing systems.  
 If your application is accepted, you’ll receive the notification in late October.
 
 ---
 
-##  CALL FOR INTERNATIONAL PARTICIPANTS (Deadline November 14th, 2025)
+##  Call For International Participants (Deadline November 14th, 2025)
 
 To apply for the summer school, please send `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max).  
 If your application is accepted, you’ll receive instructions on how to proceed with the payment.
 
 ---
 
-## 👥 CALL FOR PARTICIPANTS PROCESS (Deadline November 14th, 2025)
+##  Call For Participants Process (Deadline November 14th, 2025)
 
 To apply for the summer school, please send `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max), as well as your resume CV.  
 If your application is accepted, you’ll receive instructions on how to proceed with the payment.
