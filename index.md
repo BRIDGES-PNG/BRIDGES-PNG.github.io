@@ -74,7 +74,7 @@ To apply for the summer school, please send `bridges.png@gmail.com` a cover lett
 If your application is accepted, you’ll receive instructions on how to proceed with the payment.
 ---
 
-
+---
 #  Confirmed Keynote Lecturers
 
 **Confirmed Keynote Lecturers**
