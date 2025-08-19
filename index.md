@@ -3,7 +3,7 @@
 ---
 
 # Summer School in The South Pacific  
-**Innovative Prototyping through AI and Open Source**  
+**Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
 
 The Summer School is designed to provide participants with practical software solutions in a unique region of the world, while advancing the goal of making software engineering universal—accessible to anyone, anywhere, without technical, cultural, or educational barriers.
@@ -18,13 +18,11 @@ With the rise of AI technologies in Software Engineering (SE), this school demon
 The 3-day program is taught in *English* and will be held at *Loloata Island Resort*, Port Moresby, Papua New Guinea.  
 Participants will receive a *certificate of attendance*.
 
-Please note: In contrast to previous editions, this Summer School will take place in *January* rather than *September*.
-  
 
 ---
 
 
-- **Research**: Gain early feedback on your research from experts. Practise presentation skills, and seek potential collaborators.
+- **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
 - **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. We also aim to connect local Japanese researchers with rising scientists from the global community.
 
@@ -50,27 +48,26 @@ Please note: In contrast to previous editions, this Summer School will take plac
 - Accommodation  
 
 
-Please note that, in contrast to previous editions, this edition of the school will take place in **January** rather than **September**. We have three calls.
 
 ---
 
 ##  Call For Challenges (Deadline September 17th, 2025)
 
-To submit a proposal for the summer school, please send `bridges.png@gmail.com` with a motivation and background details (500 words max) using software technologies in the solution. The challenge can involve a dataset, use case and existing systems.  
+To submit a proposal for the summer school, please send an email to `bridges.png@gmail.com` with a motivation and background details (500 words max) using software technologies in the solution. The challenge can involve a dataset, use case and existing systems.  
 If your application is accepted, you’ll receive the notification in late October.
 
 ---
 
 ##  Call For International Participants (Deadline November 14th, 2025)
 
-To apply for the summer school, please send `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max).  
+To apply for the summer school, please send an email to `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max).  
 If your application is accepted, you’ll receive instructions on how to proceed with the payment.
 
 ---
 
 ##  Call For Participants Process (Deadline November 14th, 2025)
 
-To apply for the summer school, please send `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max), as well as your resume CV.  
+To apply for the summer school, please send an email to `bridges.png@gmail.com` a cover letter with your motivation and background details (500 words max), as well as your resume CV.  
 If your application is accepted, you’ll receive instructions on how to proceed with the payment.
 ---
 
@@ -88,11 +85,8 @@ If your application is accepted, you’ll receive instructions on how to proceed
 - Prof. Raula Gaikovina Kula (The University of Osaka)
 - Prof. Youmei Fan (Nara Institute of Science and Technology)
 - Dr. Benson Mirou (Papua New Guinea University of Technology)
-- Mrs. Winifred Kula (Bank of South Pacific)
+- Winifred Kula (Bank of South Pacific)
 
----
-
-Find more details on the [Travel Information page](travel.md).
 
 ---
 
