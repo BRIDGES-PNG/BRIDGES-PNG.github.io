@@ -54,7 +54,8 @@ Participants will receive a *certificate of attendance*.
 ##  Call For Challenges (Deadline September 17th, 2025)
 
 To submit a proposal for the summer school, please send an email to `bridges.png@gmail.com` with a motivation and background details (500 words max) using software technologies in the solution. The challenge can involve a dataset, use case and existing systems.  
-If your application is accepted, you’ll receive the notification in late October.
+If your application is accepted, you’ll receive the notification in late October. Alternatively, you can either fill out this [Challeng Application Form](https://docs.google.com/forms/d/1GruXpV3lY5SAIgm7LVz5P5z5j_AzYu4U-iMm7ytHBAA/edit?usp=drivesdk)
+.
 
 ---
 
