@@ -81,7 +81,7 @@ To apply for the summer school, please send an email to bridges.png@gmail.com a 
 
 We accept registrations as teams or individuals. Please note that we have limited spaces, so please register as soon as you can. Also, spaces is determined by the location. University students will have free registration (subsidized upon registration).
 
-Alternatively, you can either fill out this participants registration application [Form](https://docs.google.com/forms/d/1GruXpV3lY5SAIgm7LVz5P5z5j_AzYu4U-iMm7ytHBAA/edit?usp=drivesdk)
+Alternatively, you can either fill out this participants registration application form. [Registration form](https://docs.google.com/forms/d/1GruXpV3lY5SAIgm7LVz5P5z5j_AzYu4U-iMm7ytHBAA/edit?usp=drivesdk)
 
 
 
