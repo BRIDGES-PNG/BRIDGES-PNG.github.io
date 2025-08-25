@@ -24,7 +24,7 @@ Participants will receive a *certificate of attendance*.
 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
 - **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
-- **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. We also aim to connect local Japanese researchers with rising scientists from the global community.
+- **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
 
 
 ---
