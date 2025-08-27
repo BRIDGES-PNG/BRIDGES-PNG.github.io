@@ -58,7 +58,7 @@ The challenge is a problem that you have in your organization, that a software s
 
 The challenge can involve a dataset, use case and existing systems. 
 
-Alternatively, you can either fill out this challenge application form. [challenge form](https://docs.google.com/forms/d/1YGSHKG1xMDlbeogaqGrIy0hhKFo8X_ELC1n6noLxXr0/edit?usp=drivesdk) .
+Alternatively, you can either fill out this challenge application form. [Challenge form](https://forms.gle/TRT4o3D9UtR1Dasn8) .
 
  If your application is accepted, you’ll receive the notification in late October.
 
@@ -81,7 +81,7 @@ To apply for the summer school, please send an email to bridges.png@gmail.com a 
 
 We accept registrations as teams or individuals. Please note that we have limited spaces, so please register as soon as you can. Also, spaces is determined by the location. University students will have free registration (subsidized upon registration).
 
-Alternatively, you can either fill out this participants registration application form. [Registration form](https://docs.google.com/forms/d/1GruXpV3lY5SAIgm7LVz5P5z5j_AzYu4U-iMm7ytHBAA/edit?usp=drivesdk)
+Alternatively, you can either fill out this participants registration application form. [Registration form](https://forms.gle/H528RjKw6mYcPbP7A)
 
 
 
