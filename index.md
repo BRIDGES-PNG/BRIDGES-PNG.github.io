@@ -1,8 +1,12 @@
 
 
 ---
+---
+layout: default
 <p align="center">
-  <img src="assets/logo.png" alt="BRIOCE PNG Logo" width="150">
+  <img src="assets/logo.png" alt="BRIDGE PNG Logo" width="150">
+</p>
+---
 </p>
 # Summer School in The South Pacific  
 **Bridging the Divides with Globally Engineered Software**  
