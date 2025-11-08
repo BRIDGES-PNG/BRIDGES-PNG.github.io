@@ -1,11 +1,14 @@
 
-
----
----
 layout: default
+---
+
 <p align="center">
   <img src="assets/logo.png" alt="BRIDGE PNG Logo" width="150">
 </p>
+
+---
+# Welcome to BRIDGE PNG
+Connecting the South Pacific through engineering and open source.
 ---
 </p>
 # Summer School in The South Pacific  
