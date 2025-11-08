@@ -1,7 +1,9 @@
 
 
 ---
-
+<p align="center">
+  <img src="assets/logo.png" alt="BRIOCE PNG Logo" width="150">
+</p>
 # Summer School in The South Pacific  
 **Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
