@@ -1,17 +1,17 @@
 
+---
 layout: default
 ---
 
 <p align="center">
-  <img src="assets/logo.png" alt="BRIDGE PNG Logo" width="150">
+  <img src="logo_1_without_bg.png" alt="Report Logo" width="200">
 </p>
-
 ---
 # Welcome to BRIDGE PNG
 Connecting the South Pacific through engineering and open source.
 ---
 </p>
-# Summer School in The South Pacific  
+# Summer School in The South Pacific.  
 **Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
 
