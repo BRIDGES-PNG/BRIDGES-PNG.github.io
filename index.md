@@ -21,6 +21,59 @@ Participants will receive a *certificate of attendance*.
 
 
 ---
+## Overview of Program
+
+## Overview of Program
+*DAY 1 - Loloata: Conference Room.*
+
+
+Session | Details
+-------------- | -------------
+8:30 - 9:00 | Registration
+-------------- | ---------------
+9:00 - 9:30 | Welcome
+Welcome Address | Professor Ora Renagi OL  (PNGUoT Vice-Chancellor))
+Theme and Opening for BRIDGES2026 | Prof. Raula Gaikovina Kula
+------------ | -------------
+10:00 - 10:30 | Break (Group Photo)
+------------ | -------------
+10:30 - 12:30 | Keynotes
+Keynote Talk 1 | Prof. Kelly Blincoe
+Keynote Talk 2 | Prof. Foutse Khomh 
+------------ | -------------
+12:30 - 13:30 | LUNCH (e-Posters)
+------------ | -------------
+13:30 - 15:00 | Session 1: Introduction to Git and GitHub
+------------ | -------------
+.. |  Breakout into Teams (6 person)
+.. |  Individual Tasks on Git and GitHub (Prof. Youmei and Lecturer Sankwi )
+------------ | -------------
+15:00 - 15:30 | Break 
+------------ | -------------
+15:30 - 16:30 | Session 2: Creating Projects and Contributions
+------------ | -------------
+.. |  Tasks on first contributions and discussions (Prof. Youmei and Lecturer Sankwi )
+.. |  Day 1 - Wrap-up and tasks for Day 2. 
+------------ | -------------
+night session (8:00pm - 10.00pm) | dinner and closed discussions with invited guests
+
+
+*DAY 2 - Loloata: Conference Room.*
+
+
+Session | Details
+-------------- | -------------
+9:00 - 10:00  | Day 2 Keynotes
+Keynote Talk 3 | Prof. Marc Cheong
+.. |  Feedback from Day 1 - 6 teams. 
+------------ | -------------
+10:00 - 10:30 | Break 
+------------ | -------------
+10:30 - 12:30 | Session 3: Introduction to GenAI as a Companion.
+.. |  Introduction to Using GenAI, LLMs and Agents  (Prof. Kula)
+------------ | -------------
+12:30 - 13:30 | LUNCH 
+------------ | -------------
 
 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
