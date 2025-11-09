@@ -4,9 +4,24 @@ layout: default
 ---
 
 <p align="center">
-  <img src="logo_1_without_bg.png" alt="Report Logo" width="200">
+  <img src="logo_1_withouth_bg.png" alt="Report Logo" width="200">
 </p>
----
+
+# Report Section
+
+Welcome to the BRIDGE PNG report space.  
+This section can hold updates, tuition details, or event information.
+
+## Example Content
+
+Here’s a sample table you can customize:
+
+| Item        | Details        |
+|-------------|----------------|
+| Logo        | Displayed above |
+| Year        | 2026           |
+| Notes       | Replace this text with your own report content |
+
 # Welcome to BRIDGE PNG
 Connecting the South Pacific through engineering and open source.
 ---
