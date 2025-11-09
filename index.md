@@ -1,8 +1,5 @@
 
-# Welcome to BRIDGE PNG
-Connecting the South Pacific through engineering and open source.
----
-</p>
+
 # Summer School in The South Pacific.  
 **Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
@@ -13,7 +10,7 @@ Previous editions:
 - [BRIDGES 2023](https://naist-se.github.io/PNG-BRIDGES)
 - [BRIDGES 2019](https://naist-se.github.io/BRIDGES2019)
 
-The rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
+With the rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
 
 
 The 3-day program is taught in *English* and will be held at *Loloata Island Resort*, Port Moresby, Papua New Guinea.  
