@@ -84,6 +84,27 @@ Keynote Talk 3 | Prof. Marc Cheong
 ------------ | -------------
 night session (20:00pm - 22.00pm) | dinner and closed discussions with invited guests
 
+*DAY 3 - Loloata - Resort Area*
+
+
+Session | Details
+-------------- | -------------
+9:00 - 10:00  | Session 6: Presentations, Feedback
+.. |  Team 1 -3  presentations and voting (15 mins each)
+------------ | -------------
+10:00 - 10:30 | Break 
+------------ | -------------
+10:30 - 12:30 | Session 7: Presentations, Feedback and Awards
+.. |  Team 4 - 6  presentations and voting (15 mins each)
+.. |  Awards presentation
+.. |  Closing & Future Discussions
+------------ | -------------
+12:30 - 13:30 | LUNCH
+------------ | -------------
+closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
+
+
+
 
 
 
