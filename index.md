@@ -56,6 +56,35 @@ Keynote Talk 2 | Prof. Foutse Khomh
 ------------ | -------------
 night session (8:00pm - 10.00pm) | dinner and closed discussions with invited guests
 
+*DAY 2 - Loloata: Conference Room.*
+
+
+Session | Details
+-------------- | -------------
+9:00 - 10:00  | Day 2 Keynotes
+Keynote Talk 3 | Prof. Marc Cheong
+.. |  Feedback from Day 1 - 6 teams. 
+------------ | -------------
+10:00 - 10:30 | Break 
+------------ | -------------
+10:30 - 12:30 | Session 3: Introduction to GenAI as a Companion.
+.. |  Introduction to Using GenAI, LLMs and Agents  (Prof. Kula)
+------------ | -------------
+12:30 - 13:30 | LUNCH 
+------------ | -------------
+13:30 - 15:00 | Session 4: Challenge (Creating a Website on GitHub with AI)
+------------ | -------------
+.. |  Team breakout (Prof. Youmei and Lecturer Sankwi )
+------------ | -------------
+15:00 - 15:30 | Break 
+------------ | -------------
+15:30 - 16:30 | Session 5: Continue Challenge 
+------------ | -------------
+.. |  Team breakout (Prof. Youmei and Lecturer Sankwi )
+------------ | -------------
+night session (20:00pm - 22.00pm) | dinner and closed discussions with invited guests
+
+
 
 
 
