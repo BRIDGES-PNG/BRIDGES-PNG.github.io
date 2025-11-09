@@ -21,7 +21,6 @@ Participants will receive a *certificate of attendance*.
 
 
 ---
-## Overview of Program
 
 ## Overview of Program
 *DAY 1 - Loloata: Conference Room.*
@@ -58,22 +57,6 @@ Keynote Talk 2 | Prof. Foutse Khomh
 night session (8:00pm - 10.00pm) | dinner and closed discussions with invited guests
 
 
-*DAY 2 - Loloata: Conference Room.*
-
-
-Session | Details
--------------- | -------------
-9:00 - 10:00  | Day 2 Keynotes
-Keynote Talk 3 | Prof. Marc Cheong
-.. |  Feedback from Day 1 - 6 teams. 
------------- | -------------
-10:00 - 10:30 | Break 
------------- | -------------
-10:30 - 12:30 | Session 3: Introduction to GenAI as a Companion.
-.. |  Introduction to Using GenAI, LLMs and Agents  (Prof. Kula)
------------- | -------------
-12:30 - 13:30 | LUNCH 
------------- | -------------
 
 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
