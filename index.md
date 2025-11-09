@@ -1,27 +1,4 @@
 
----
-layout: default
----
-
-<p align="center">
-  <img src="logo_1_withouth_bg.png" alt="Report Logo" width="200">
-</p>
-
-# Report Section
-
-Welcome to the BRIDGE PNG report space.  
-This section can hold updates, tuition details, or event information.
-
-## Example Content
-
-Here’s a sample table you can customize:
-
-| Item        | Details        |
-|-------------|----------------|
-| Logo        | Displayed above |
-| Year        | 2026           |
-| Notes       | Replace this text with your own report content |
-
 # Welcome to BRIDGE PNG
 Connecting the South Pacific through engineering and open source.
 ---
@@ -36,7 +13,7 @@ Previous editions:
 - [BRIDGES 2023](https://naist-se.github.io/PNG-BRIDGES)
 - [BRIDGES 2019](https://naist-se.github.io/BRIDGES2019)
 
-With the rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
+The rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
 
 
 The 3-day program is taught in *English* and will be held at *Loloata Island Resort*, Port Moresby, Papua New Guinea.  
