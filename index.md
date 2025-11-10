@@ -5,6 +5,19 @@
 **Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
 
+---
+layout: default
+---
+
+<p align="center">
+  <img src="logo_1_withouth_bg.png" alt="Report Logo" width="200">
+</p>
+
+# Report Section
+
+Welcome to the BRIDGE PNG report space.  
+This section can hold updates, tuition details, or event information.
+
 The Summer School is designed to provide participants with practical software solutions in a unique region of the world, while advancing the goal of making software engineering universal—accessible to anyone, anywhere, without technical, cultural, or educational barriers.
 
 Previous editions:
