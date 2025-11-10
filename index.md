@@ -10,7 +10,7 @@ layout: default
 ---
 
 <p align="center">
-<img src="logo_1_withouth_bg.png" alt="Flowers in Chania">
+<img src="logo_1_withouth_bg.png">
 </p>
 
 # Report Section
