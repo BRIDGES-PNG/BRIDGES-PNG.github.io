@@ -5,9 +5,6 @@
 **Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
 
----
-layout: default
----
 
 <p align="center">
 <img src="logo_1_withouth_bg.png">
