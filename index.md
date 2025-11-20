@@ -112,24 +112,33 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
-  <title>Responsible Use of AI</title>
+  <title>BRIDGES Speaker Abstracts</title>
 </head>
 <body>
-  <h1>Responsible Use of Generative AI and Open Source Tools for Good</h1>
+  <h1>BRIDGES Speaker Abstracts</h1>
 
+  <h2>Associate Professor Kelly Blincoe</h2>
+  <h3>Finding Your Fit: How Your Thinking Style Shapes Your Software Engineering Experience</h3>
+  <p>
+    Have you ever felt like software just doesn't "click" with the way you think? Recent research shows this isn't just in your head—some software actually works better for certain thinking styles than others. This is also true for the software tools that software engineers use to build and maintain software. I'll share our studies on two widely-used tools: the PyCharm debugger (which helps find and fix bugs) and GitHub Copilot (an AI coding assistant). You'll learn about the inclusivity issues we found and, more importantly, discover practical strategies for working with these tools effectively, regardless of your natural thinking style. I'll also help you identify your own cognitive preferences so you can choose approaches that work best for you as you begin your software engineering journey.
+  </p>
+
+  <h2>Associate Professor Marc Cheong</h2>
+  <h3>Responsible Use of Generative AI and Open Source Tools for Good</h3>
   <p>
     Following from previous BRIDGES events, researchers have identified that building software with open source tools (and possibly generative AI) could empower young people and uplift them with career-building skills. Generative AI products, from ChatGPT to Claude Code, have the potential to improve productivity, and more importantly, become a resource for learning about software development.
   </p>
-
   <p>
     However, AI—against the broader tech ecosystem—has been known to cause issues such as: perpetuating 'AI slop' and misinformation; exhibiting social biases or amplifying them; causing unwanted harms and side effects; violating privacy and potentially misusing others' work! This, combined with the proprietary nature of many extant software products, might raise some ethical questions on what it means to use them 'responsibly' and 'for good'.
   </p>
-
   <p>
     In this talk, I will provide a primer of four key ethical principles in the area of AI ethics, and explain their applicability in our use of technology (including AI), as well as what they mean for developers, users, and other stakeholders.
+  </p>
+  <p>
+    Then, I will discuss the benefits found in initiatives such as the open source movement and others in promoting accessibility, fairness, and equality of opportunity. Finally, some practical tips will be offered to participants on how they can begin their journey as software developers in a responsible and ethical manner, by learning from the various issues surrounding contemporary technology, and adopting responsible usage/development practices.
   </p>
 </body>
 </html>
