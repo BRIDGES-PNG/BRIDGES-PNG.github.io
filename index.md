@@ -5,18 +5,10 @@
 **Bridging the Divides with Globally Engineered Software**  
 *January 9th – 11th, 2026*
 
----
-layout: default
----
 
 <p align="center">
-<img src="logo_1_withouth_bg.png">
+<img src="img/logo_1_without_bg.png">
 </p>
-
-# Report Section
-
-Welcome to the BRIDGE PNG report space.  
-This section can hold updates, tuition details, or event information.
 
 The Summer School is designed to provide participants with practical software solutions in a unique region of the world, while advancing the goal of making software engineering universal—accessible to anyone, anywhere, without technical, cultural, or educational barriers.
 
@@ -115,11 +107,6 @@ Session | Details
 closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
 
 
-
-
-
-
-
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
 - **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
@@ -189,8 +176,6 @@ We accept registrations as teams or individuals. Please note that we have limite
 
 Alternatively, you can either fill out this participants registration application form. [Registration form](https://forms.gle/H528RjKw6mYcPbP7A)
 
-
-
 If your application is accepted, you’ll receive instructions on how to proceed with the registraion payment after November 14th.
 
 ---
@@ -200,6 +185,7 @@ If your application is accepted, you’ll receive instructions on how to proceed
 **Confirmed Keynote Lecturers**
 - Prof. Foutse Khomh
 - Prof. Kelly Blincoe
+- Prof. Marc Choeng
 
 ---
 
