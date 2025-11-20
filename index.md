@@ -119,7 +119,8 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
 </head>
 <body>
   <h1>BRIDGES Speaker Abstracts</h1>
-<img align="right" height="200" src="https://kblincoe.github.io/imgs/Kelly_Blincoe.jpg">
+  
+<img align="right" height="200" src="https://kblincoe.github.io/imgs/Kelly_Blincoe.jpg"> 
   <h2>Associate Professor Kelly Blincoe</h2>
   <h3>Finding Your Fit: How Your Thinking Style Shapes Your Software Engineering Experience</h3>
   <p>
