@@ -125,6 +125,29 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsible Use of AI</title>
+</head>
+<body>
+  <h1>Responsible Use of Generative AI and Open Source Tools for Good</h1>
+
+  <p>
+    Following from previous BRIDGES events, researchers have identified that building software with open source tools (and possibly generative AI) could empower young people and uplift them with career-building skills. Generative AI products, from ChatGPT to Claude Code, have the potential to improve productivity, and more importantly, become a resource for learning about software development.
+  </p>
+
+  <p>
+    However, AI—against the broader tech ecosystem—has been known to cause issues such as: perpetuating 'AI slop' and misinformation; exhibiting social biases or amplifying them; causing unwanted harms and side effects; violating privacy and potentially misusing others' work! This, combined with the proprietary nature of many extant software products, might raise some ethical questions on what it means to use them 'responsibly' and 'for good'.
+  </p>
+
+  <p>
+    In this talk, I will provide a primer of four key ethical principles in the area of AI ethics, and explain their applicability in our use of technology (including AI), as well as what they mean for developers, users, and other stakeholders.
+  </p>
+</body>
+</html>
+
+
 ---
 
 ##  Tuition Fee
