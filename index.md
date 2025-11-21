@@ -127,7 +127,9 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
     Have you ever felt like software just doesn't "click" with the way you think? Recent research shows this isn't just in your head—some software actually works better for certain thinking styles than others. This is also true for the software tools that software engineers use to build and maintain software. I'll share our studies on two widely-used tools: the PyCharm debugger (which helps find and fix bugs) and GitHub Copilot (an AI coding assistant). You'll learn about the inclusivity issues we found and, more importantly, discover practical strategies for working with these tools effectively, regardless of your natural thinking style. I'll also help you identify your own cognitive preferences so you can choose approaches that work best for you as you begin your software engineering journey.
   </p>
 
-  <h2>Associate Professor Marc Cheong</h2>
+  <h2>Associate Professor MarK Cheong</h2>
+
+  <img align="right" height="200" src="https://www.marccheong.com/assets/img/profile.jpg?1dd43b32d7c4bc761862b0e2e2a91400">
   <h3>Responsible Use of Generative AI and Open Source Tools for Good</h3>
   <p>
     Following from previous BRIDGES events, researchers have identified that building software with open source tools (and possibly generative AI) could empower young people and uplift them with career-building skills. Generative AI products, from ChatGPT to Claude Code, have the potential to improve productivity, and more importantly, become a resource for learning about software development.
