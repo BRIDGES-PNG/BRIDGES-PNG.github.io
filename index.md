@@ -191,7 +191,15 @@ Alternatively, you can either fill out this participants registration applicatio
 If your application is accepted, you’ll receive instructions on how to proceed with the registraion payment after November 14th.
 
 ---
+<!-- BRIDGES Summer School Registration Notice -->
+<div style="background-color:#f8d7da; color:#721c24; padding:15px; border:1px solid #f5c6cb; text-align:center; font-family:Arial, sans-serif; font-size:16px; font-weight:bold;">
+  Registration Closed – BRIDGES Summer School 2025
+</div>
 
+<p style="font-family:Arial, sans-serif; font-size:14px; color:#333;">
+  Applications for the BRIDGES Summer School 2025 are now closed as of <strong>November 14, 2025</strong>. 
+  Thank you to everyone who applied. Notifications will be sent by email after committee review.
+</p>
 
 
 **Confirmed Keynote Lecturers**
