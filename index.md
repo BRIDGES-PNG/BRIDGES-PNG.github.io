@@ -29,7 +29,7 @@ BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.
 ---
 
 ## Overview of Program
-*DAY 1 - Loloata: Conference Room.*
+* January 10 - Loloata: Conference Room.*
 
 
 Session | Details
@@ -62,7 +62,7 @@ Keynote Talk 2 | Prof. Foutse Khomh
 ------------ | -------------
 night session (8:00pm - 10.00pm) | dinner and closed discussions with invited guests
 
-*DAY 2 - Loloata: Conference Room.*
+*January 11 - Loloata: Conference Room.*
 
 
 Session | Details
@@ -90,7 +90,7 @@ Keynote Talk 3 | Prof. Marc Cheong
 ------------ | -------------
 night session (20:00pm - 22.00pm) | dinner and closed discussions with invited guests
 
-*DAY 3 - Loloata - Resort Area*
+*January 12- Loloata - Resort Area*
 
 
 Session | Details
