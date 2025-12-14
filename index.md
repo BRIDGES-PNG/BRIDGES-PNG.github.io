@@ -29,7 +29,7 @@ BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.
 ---
 
 ## Overview of Program
-* January 10 - Loloata: Conference Room.*
+*January 10 - Loloata: Conference Room.*
 
 
 Session | Details
