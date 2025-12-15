@@ -171,6 +171,25 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
 - Accommodation  
 
 
+<section id="venue-info">
+  <h2>Venue: Loloata Island Resort</h2>
+  <p>
+    Enjoy a tropical getaway with day passes available for guests. For more details, visit the 
+    <a href="https://www.loloataislandresort.com/day-passes" target="_blank" rel="noopener noreferrer">
+      official day pass page
+    </a>.
+  </p>
+
+  <h3>Transport Schedule (2025)</h3>
+  <p>
+    You can view or download the latest ferry and transport schedule here: 
+    <a href="https://www.loloataislandresort.com/library/2025-new-ferry-and-transport-service-schedule-v2.pdf" target="_blank" rel="noopener noreferrer">
+      2025 Ferry & Transport PDF
+    </a>.
+  </p>
+</section>
+
+
 ---
 
 ##  Call For International Participants (Deadline November 14th, 2025)
