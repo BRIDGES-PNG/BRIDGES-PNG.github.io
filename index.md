@@ -26,14 +26,14 @@ Participants will receive a *certificate of attendance*.
 BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.com/), which is located on an island off the coast of Port Moresby, capital of Pacific nation, Papua New Guinea (PNG). Known as the land of the unexpected, locals speak over 850 languages and have a diverse culture, flora and fauna (like the Bird of Paradise and the world's largest butterfly, the Queen Alexandra Birdwing), making PNG one of the last untouched locations on the planet. With independence day looming on September 16th, we expect the area to be buzzing with pacific-style culture and experiences. 
 
 
-  <h3>Transport Schedule (2025)</h3>
+  <h3>Transport Schedule (2026)</h3>
   <p>
     You can view or download the latest ferry and transport schedule here: 
     <a href="https://www.loloataislandresort.com/library/2025-new-ferry-and-transport-service-schedule-v2.pdf" target="_blank" rel="noopener noreferrer">
-      2025 Ferry & Transport PDF
+      2026 Ferry & Transport PDF
     </a>.
   </p>
-</section>
+
 
 
 ---
@@ -158,7 +158,6 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
   </p>
 </body>
 </html>
-
 
 ---
 
