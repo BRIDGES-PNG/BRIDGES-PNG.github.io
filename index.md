@@ -23,7 +23,6 @@ The 3-day program is taught in *English* and will be held at *Loloata Island Res
 Participants will receive a *certificate of attendance*.
 
 ## Venue
-BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.com/), which is located on an island off the coast of Port Moresby, capital of Pacific nation, Papua New Guinea (PNG). Known as the land of the unexpected, locals speak over 850 languages and have a diverse culture, flora and fauna (like the Bird of Paradise and the world's largest butterfly, the Queen Alexandra Birdwing), making PNG one of the last untouched locations on the planet. With independence day looming on September 16th, we expect the area to be buzzing with pacific-style culture and experiences. 
 
 
   <h3>Transport Schedule (2026)</h3>
