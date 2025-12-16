@@ -24,7 +24,9 @@ Participants will receive a *certificate of attendance*.
 
 <section id="venue">
   <h2>Venue</h2>
-  <img align="right" height="200" src="https://www.loloataislandresort.com/wp-content/uploads/2020/07/Loloata-Island-Resort.jpg" alt="Loloata Island Resort">
+  <img src="https://www.loloataislandresort.com/wp-content/uploads/2020/07/Loloata-Island-Resort.jpg" 
+       alt="Loloata Island Resort" 
+       style="float: right; height: 200px; margin: 0 0 10px 20px; border-radius: 8px;">
   <p>
     BRIDGES2026 will take place at 
     <a href="https://www.loloataislandresort.com/" target="_blank" rel="noopener noreferrer">
