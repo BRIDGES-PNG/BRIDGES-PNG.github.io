@@ -22,7 +22,8 @@ With the rise of AI technologies in Software Engineering (SE), this school demon
 The 3-day program is taught in *English* and will be held at *Loloata Island Resort*, Port Moresby, Papua New Guinea.  
 Participants will receive a *certificate of attendance*.
 
-
+## Venue
+BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.com/), which is located on an island off the coast of Port Moresby, capital of Pacific nation, Papua New Guinea (PNG). Known as the land of the unexpected, locals speak over 850 languages and have a diverse culture, flora and fauna (like the Bird of Paradise and the world's largest butterfly, the Queen Alexandra Birdwing), making PNG one of the last untouched locations on the planet. 
 
 ---
 
