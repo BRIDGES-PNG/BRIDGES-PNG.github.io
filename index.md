@@ -158,6 +158,26 @@ closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
 </body>
 </html>
 
+<h2>Associate Professor Yutaro Kashiwa</h2>
+
+<img align="right" height="200" src="WhatsApp Image 2025-12-13 at 19.37.53.jpeg" alt="Yutaro Kashiwa">
+<h3>Empirical Software Engineering and Agentic Coding</h3>
+<p>
+  Yutaro Kashiwa is an Associate Professor at the Nara Institute of Science and Technology (NAIST), Japan. 
+  He earned his Ph.D. in Engineering from Wakayama University in 2020. Prior to his academic career, 
+  he worked as a full-time software engineer at Hitachi Ltd. for two years and subsequently served as 
+  a research fellow at the Japan Society for the Promotion of Science (JSPS) for three years.
+</p>
+<p>
+  From 2020 to 2022, he was a postdoctoral researcher on a Swiss-Japan collaborative project funded by 
+  the Swiss National Science Foundation (SNSF) and JSPS, led by Yasutaka Kamei and Gabriele Bavota. 
+  He joined NAIST as an Assistant Professor in 2022 and was promoted to Associate Professor in 2025.
+</p>
+<p>
+  His research focuses on empirical software engineering, with particular interest in agentic coding, 
+  software testing, refactoring, and release processes.
+</p>
+
 ---
 
 ##  Tuition Fee
