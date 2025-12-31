@@ -38,85 +38,89 @@ BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.
 ---
 
 ## Overview of Program
-*January 10 - Loloata: Conference Room.*
+*DAY 1 Jan 9th - Loloata: Conference Room.*
 
 
 Session | Details
 -------------- | -------------
-8:30 - 9:00 | Registration
+9:30 - 10:00 | Registration
 -------------- | ---------------
-9:00 - 9:30 | Welcome
-Welcome Address | Professor Ora Renagi OL  (PNGUoT Vice-Chancellor))
+10:00 - 10:20 | Welcome
+Welcome Address | Professor Ora Renagi OL  (PNGUoT Vice-Chancellor)
 Theme and Opening for BRIDGES2026 | Prof. Raula Gaikovina Kula
 ------------ | -------------
-10:00 - 10:30 | Break (Group Photo)
+10:20 - 10:30 | Break (Group Photo)
 ------------ | -------------
 10:30 - 12:30 | Keynotes
 Keynote Talk 1 | Prof. Kelly Blincoe
 Keynote Talk 2 | Prof. Foutse Khomh 
 ------------ | -------------
-12:30 - 13:30 | LUNCH (e-Posters)
+12:30 - 13:30 | Lunch (e-Posters)
 ------------ | -------------
 13:30 - 15:00 | Session 1: Introduction to Git and GitHub
 ------------ | -------------
-.. |  Breakout into Teams (6 person)
-.. |  Individual Tasks on Git and GitHub (Prof. Youmei and Lecturer Sankwi )
+.. |  Breakout into Teams (6 people)
+.. |  Individual Tasks on Git and GitHub (Prof. Raula and Lecturer Sankwi)
 ------------ | -------------
 15:00 - 15:30 | Break 
 ------------ | -------------
 15:30 - 16:30 | Session 2: Creating Projects and Contributions
 ------------ | -------------
-.. |  Tasks on first contributions and discussions (Prof. Youmei and Lecturer Sankwi )
+.. |  Tasks on Using Visual Studio Code and Copilot (Prof. Youmei)
 .. |  Day 1 - Wrap-up and tasks for Day 2. 
 ------------ | -------------
-night session (8:00pm - 10.00pm) | dinner and closed discussions with invited guests
+night session (8:00 - 10.00) | dinner and closed discussions with invited guests
 
-*January 11 - Loloata: Conference Room.*
+
+*DAY 2 Jan 10th - Loloata: Conference Room.*
 
 
 Session | Details
 -------------- | -------------
-9:00 - 10:00  | Day 2 Keynotes
+9:30 - 10:30  | Day 2 Keynotes
 Keynote Talk 3 | Prof. Marc Cheong
-.. |  Feedback from Day 1 - 6 teams. 
+Keynote Talk 4 | Prof. Yutaro Kashiwa 
 ------------ | -------------
-10:00 - 10:30 | Break 
+10:30 - 11:00 | Break 
 ------------ | -------------
-10:30 - 12:30 | Session 3: Introduction to GenAI as a Companion.
-.. |  Introduction to Using GenAI, LLMs and Agents  (Prof. Kula)
+11:00 - 12:30 | Session 3: Introduction of Website Challenge
+.. |  Hackathon task and working groups (Prof. Kula)
 ------------ | -------------
-12:30 - 13:30 | LUNCH 
+12:30 - 13:30 | Lunch 
 ------------ | -------------
-13:30 - 15:00 | Session 4: Challenge (Creating a Website on GitHub with AI)
+13:30 - 15:00 | Session 4: Challenge Working(Creating a Website on GitHub with AI)
 ------------ | -------------
-.. |  Team breakout (Prof. Youmei and Lecturer Sankwi )
+.. |  Team breakout 
 ------------ | -------------
 15:00 - 15:30 | Break 
 ------------ | -------------
 15:30 - 16:30 | Session 5: Continue Challenge 
 ------------ | -------------
-.. |  Team breakout (Prof. Youmei and Lecturer Sankwi )
+.. |  Team breakout and Reporting
 ------------ | -------------
-night session (20:00pm - 22.00pm) | dinner and closed discussions with invited guests
+night session (20:00 - 22.00) | dinner and closed discussions with invited guests
 
-*January 12- Loloata - Resort Area*
+
+
+
+*DAY 3 Jan 11th  - Loloata - Resort Area*
 
 
 Session | Details
 -------------- | -------------
-9:00 - 10:00  | Session 6: Presentations, Feedback
+10:00 - 11:00  | Session 6: Presentations, Feedback
 .. |  Team 1 -3  presentations and voting (15 mins each)
 ------------ | -------------
-10:00 - 10:30 | Break 
+11:00 - 11:30 | Break 
 ------------ | -------------
-10:30 - 12:30 | Session 7: Presentations, Feedback and Awards
+11:30 - 12:30 | Session 7: Presentations, Feedback and Awards
 .. |  Team 4 - 6  presentations and voting (15 mins each)
 .. |  Awards presentation
 .. |  Closing & Future Discussions
 ------------ | -------------
-12:30 - 13:30 | LUNCH
+12:30 - 13:30 | Lunch
 ------------ | -------------
-closed session (14:00pm - 17:00pm) | future plan discussions with invited guests
+closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
