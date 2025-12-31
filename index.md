@@ -216,24 +216,28 @@ you will receive the notification on a email basis as the committee will discuss
 
 ---
 
-##  Call For Participants Process (Deadline November 14th, 2025)
-
-To apply for the summer school, please send an email to bridges.png@gmail.com a cover letter with your motivation and background details (500 words max), as well as your resume CV.  
-
-We accept registrations as teams or individuals. Please note that we have limited spaces, so please register as soon as you can. Also, spaces is determined by the location. University students will have free registration (subsidized upon registration).
-
-Alternatively, you can either fill out this participants registration application form. [Registration form](https://forms.gle/H528RjKw6mYcPbP7A)
-
-If your application is accepted, you’ll receive instructions on how to proceed with the registraion payment after November 14th.
-
-<!-- BRIDGES Summer School Registration Notice -->
-<div style="background-color:#f8d7da; color:#721c24; padding:15px; border:1px solid #f5c6cb; text-align:center; font-family:Arial, sans-serif; font-size:16px; font-weight:bold;">
-  Registration Closed – BRIDGES Summer School 2026
+<div class="section">
+  <h2>Call For Participants Process</h2>
+  <p>(Deadline November 14th, 2025)</p>
+  <p>
+    To apply for the summer school, please send an email to 
+    <strong>bridges.png@gmail.com</strong> a cover letter with your motivation and background details (500 words max), 
+    as well as your resume CV.
+  </p>
+  <p>
+    We accept registrations as teams or individuals. Please note that we have limited spaces, so please register as soon as you can. 
+    Also, spaces is determined by the location. University students will have free registration (subsidized upon registration).
+  </p>
+  <p>
+    Alternatively, you can either fill out this participants registration application form. Registration form
+  </p>
+  <p>
+    If your application is accepted, you’ll receive instructions on how to proceed with the registraion payment after November 14th.
+  </p>
+  <p class="highlight">
+    Late registration closes on 5 January — no registrations will be accepted after this date.
+  </p>
 </div>
-
-<p style="font-family:Arial, sans-serif; font-size:14px; color:#333;">
-  Applications for the BRIDGES Summer School 2026 are now closed as of <strong>November 14, 2025</strong>. 
-  Thank you to everyone who applied.
 </p>
 
 ---
