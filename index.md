@@ -236,7 +236,6 @@ you will receive the notification on a email basis as the committee will discuss
   </p>
   <p class="highlight">
     Late registration closes on 5 January — no registrations will be accepted after this date.
-  </p>
 </div>
 </p>
 
