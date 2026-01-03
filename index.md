@@ -43,31 +43,31 @@ BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.
 
 Session | Details
 -------------- | -------------
-9:30 - 10:00 | Registration
+9:30 - 10:00 | Registration at Desk
 -------------- | ---------------
-10:00 - 10:20 | Welcome
+10:00 - 10:20 | Welcome (Chair: Prof Youmei)
 Welcome Address | Professor Ora Renagi OL  (PNGUoT Vice-Chancellor)
 Theme and Opening for BRIDGES2026 | Prof. Raula Gaikovina Kula
 ------------ | -------------
 10:20 - 10:30 | Break (Group Photo)
 ------------ | -------------
-10:30 - 12:30 | Keynotes
-Keynote Talk 1 | Prof. Kelly Blincoe
-Keynote Talk 2 | Prof. Foutse Khomh 
+10:30 - 12:30 | Keynotes (Chair: Winifred Kula)
+Keynote Talk 1 | Prof. Foutse Khomh (remote)
+Keynote Talk 2 | Prof. Kelly Blincoe
 ------------ | -------------
-12:30 - 13:30 | Lunch (e-Posters)
+12:30 - 13:30 | Lunch
 ------------ | -------------
 13:30 - 15:00 | Session 1: Introduction to Git and GitHub
 ------------ | -------------
 .. |  Breakout into Teams (6 people)
-.. |  Individual Tasks on Git and GitHub (Prof. Raula and Lecturer Sankwi)
+.. |  Individual Tasks on Git and GitHub (Prof. Kula)
 ------------ | -------------
 15:00 - 15:30 | Break 
 ------------ | -------------
 15:30 - 16:30 | Session 2: Creating Projects and Contributions
 ------------ | -------------
 .. |  Tasks on Using Visual Studio Code and Copilot (Prof. Youmei)
-.. |  Day 1 - Wrap-up and tasks for Day 2. 
+.. |  Day 1 - Wrap-up tasks and introduce challenges (Prof. Kula). 
 ------------ | -------------
 night session (8:00 - 10.00) | dinner and closed discussions with invited guests
 
@@ -77,18 +77,18 @@ night session (8:00 - 10.00) | dinner and closed discussions with invited guests
 
 Session | Details
 -------------- | -------------
-9:30 - 10:30  | Day 2 Keynotes
+9:30 - 11:30  | Day 2 Keynotes (Chair: Dr. Benson Mirou)
 Keynote Talk 3 | Prof. Marc Cheong
 Keynote Talk 4 | Prof. Yutaro Kashiwa 
 ------------ | -------------
-10:30 - 11:00 | Break 
+11:30 - 12:00 | Break 
 ------------ | -------------
-11:00 - 12:30 | Session 3: Introduction of Website Challenge
-.. |  Hackathon task and working groups (Prof. Kula)
+12:00 - 12:30 | Session 3: Continue Challenge
+.. |  Hackathon task and working groups (Lecturer Sankwi)
 ------------ | -------------
 12:30 - 13:30 | Lunch 
 ------------ | -------------
-13:30 - 15:00 | Session 4: Challenge Working(Creating a Website on GitHub with AI)
+13:30 - 15:00 | Session 4: Challenge Pitching
 ------------ | -------------
 .. |  Team breakout 
 ------------ | -------------
@@ -121,6 +121,7 @@ Session | Details
 12:30 - 13:30 | Lunch
 ------------ | -------------
 closed session (14:00 - 17:00) | future plan discussions with invited guests
+
 
 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
