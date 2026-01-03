@@ -182,6 +182,24 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
   software testing, refactoring, and release processes.
 </p>
 
+<h2>Prof. Foutse Khomh</h2>
+
+<img align="right" height="200" src="WhatsApp Image 2026-01-01 at 20.56.47.jpeg" alt="Prof. Foutse Khomh">
+<h3>Software Engineering and Trustworthy AI</h3>
+<p>
+  Foutse Khomh is a Professor of Software Engineering at Polytechnique Montréal, Canada, and Canada Research Chair in Software Quality Assurance. 
+  He earned his Ph.D. in Computer Science from the University of Montréal. His career spans both academic research and leadership in advancing 
+  empirical software engineering practices.
+</p>
+<p>
+  He has led numerous international collaborations and projects focused on improving the reliability and trustworthiness of modern software systems. 
+  His work bridges the gap between advanced AI capabilities and dependable real-world applications, with emphasis on software quality, testing, 
+  and maintenance.
+</p>
+<p>
+  His current research interests include trustworthy AI, empirical software engineering, software analytics, and the engineering of dependable 
+  large-scale systems.
+</p>
 ---
 
 ##  Tuition Fee
