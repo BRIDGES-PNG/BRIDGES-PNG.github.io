@@ -165,9 +165,10 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 <h2>Associate Professor Yutaro Kashiwa</h2>
 
+<h2 style="color:green;">The State of Agentic Coding: How Close Have AI Agents Come to Human Developers?</h2>
+
 <img align="right" height="200" src="WhatsApp Image 2025-12-13 at 19.37.53.jpeg" alt="Associate Professor Yutaro Kashiwa">
-<h3>Keynote Talk</h3>
-<p><strong>Title:</strong> The State of Agentic Coding: How Close Have AI Agents Come to Human Developers?</p>
+
 <p>
   Programming has evolved dramatically, from punch cards to high-level languages, and now to natural language. 
   This talk focuses on “Agentic Coding,” a development approach at the forefront of this evolution. 
