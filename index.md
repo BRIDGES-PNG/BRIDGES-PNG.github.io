@@ -163,29 +163,18 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 </body>
 </html>
 
-<h2>Prof. Yutaro Kashiwa</h2>
+<h2>Associate Professor Yutaro Kashiwa</h2>
 
-<img align="right" height="200" src="WhatsApp Image 2025-12-13 at 19.37.53.jpeg" alt="Prof. Yutaro Kashiwa">
+<img align="right" height="200" src="WhatsApp Image 2025-12-13 at 19.37.53.jpeg" alt="Associate Professor Yutaro Kashiwa">
 <h3>Keynote Talk</h3>
 <p><strong>Title:</strong> The State of Agentic Coding: How Close Have AI Agents Come to Human Developers?</p>
 <p>
   Programming has evolved dramatically, from punch cards to high-level languages, and now to natural language. 
   This talk focuses on “Agentic Coding,” a development approach at the forefront of this evolution. 
   Agentic Coding refers to a paradigm where AI agents autonomously write, debug, and refine code with minimal human intervention, 
-  often working from high-level prompts or specifications rather than line-by-line instructions.
-</p>
-<p>
-  Drawing on current research into AI agent-driven software development, Prof. Kashiwa will present a quantitative analysis of 
+  often working from high-level prompts or specifications rather than line-by-line instructions. 
+  Drawing on my current research into AI agent-driven software development, I will present a quantitative analysis of 
   how closely autonomous program generation and modification by AI agents has come to replicating human development processes.
-</p>
-<p>
-  From 2020 to 2022, he was a postdoctoral researcher on a Swiss-Japan collaborative project funded by 
-  the Swiss National Science Foundation (SNSF) and JSPS, led by Yasutaka Kamei and Gabriele Bavota. 
-  He joined NAIST as an Assistant Professor in 2022 and was promoted to Associate Professor in 2025.
-</p>
-<p>
-  His research focuses on empirical software engineering, with particular interest in agentic coding, 
-  software testing, refactoring, and release processes.
 </p>
 
 <h2>Prof. Foutse Khomh</h2>
