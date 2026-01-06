@@ -251,7 +251,7 @@ you will receive the notification on a email basis as the committee will discuss
 - Prof. Raula Gaikovina Kula (The University of Osaka)
 - Prof. Youmei Fan (Nara Institute of Science and Technology)
 - Dr. Benson Mirou (Papua New Guinea University of Technology)
-- Winifred Kula (eNovaX solutions, Bank of South Pacific) * This work does not represent the views of her BSP employment.
+- Winifred Kula (eNovaX solutions, Bank of South Pacific) * Her contribution is outside of the interests and her role at her BSP employment.
 
 ---
 
