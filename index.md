@@ -46,7 +46,7 @@ Session | Details
 -------------- | ---------------
 10:00 - 10:20 | Welcome (Chair: Prof Youmei)
 Welcome Address | Professor Ora Renagi OL  (PNGUoT Vice-Chancellor)
-Theme and Opening for BRIDGES2026 | Prof. Raula Gaikovina Kula
+Opening for BRIDGES2026 | Prof. Raula Gaikovina Kula
 ------------ | -------------
 10:20 - 10:30 | Break (Group Photo)
 ------------ | -------------
@@ -60,13 +60,10 @@ Keynote Talk 2 | Prof. Kelly Blincoe
 ------------ | -------------
 .. |  Breakout into Teams (6 people)
 .. |  Individual Tasks on Git and GitHub (Prof. Kula)
------------- | -------------
-15:00 - 15:30 | Break 
------------- | -------------
-15:30 - 16:30 | Session 2: Creating Projects and Contributions
------------- | -------------
 .. |  Tasks on Using Visual Studio Code and Copilot (Prof. Youmei)
 .. |  Day 1 - Wrap-up tasks and introduce challenges (Prof. Kula). 
+------------ | -------------
+15:00 - 15:30 | Break and End of Day 1. 
 ------------ | -------------
 night session (8:00 - 10.00) | dinner and closed discussions with invited guests
 
@@ -82,20 +79,16 @@ Keynote Talk 4 | Prof. Yutaro Kashiwa
 ------------ | -------------
 11:30 - 12:00 | Break 
 ------------ | -------------
-12:00 - 12:30 | Session 3: Continue Challenge
+12:00 - 12:30 | Session 2: Continue Challenge
 .. |  Hackathon task and working groups (Lecturer Sankwi)
 ------------ | -------------
 12:30 - 13:30 | Lunch 
 ------------ | -------------
 13:30 - 15:00 | Session 4: Challenge Pitching
 ------------ | -------------
-.. |  Team breakout 
+.. |  Team breakout and report
 ------------ | -------------
-15:00 - 15:30 | Break 
------------- | -------------
-15:30 - 16:30 | Session 5: Continue Challenge 
------------- | -------------
-.. |  Team breakout and Reporting
+15:00 - 15:30 | Break and End of Day 2.
 ------------ | -------------
 night session (20:00 - 22.00) | dinner and closed discussions with invited guests
 
@@ -108,18 +101,20 @@ night session (20:00 - 22.00) | dinner and closed discussions with invited guest
 Session | Details
 -------------- | -------------
 10:00 - 11:00  | Session 6: Presentations, Feedback
-.. |  Team 1 -3  presentations and voting (15 mins each)
+.. |  Team 1 -3  presentations and live voting (15 mins each)
 ------------ | -------------
 11:00 - 11:30 | Break 
 ------------ | -------------
 11:30 - 12:30 | Session 7: Presentations, Feedback and Awards
-.. |  Team 4 - 6  presentations and voting (15 mins each)
+.. |  Team 4 - 6  presentations and live voting (15 mins each)
 .. |  Awards presentation
-.. |  Closing & Future Discussions
+.. |  Closing & Future Discussions.
 ------------ | -------------
-12:30 - 13:30 | Lunch
+12:30 - 13:30 | Closing.
 ------------ | -------------
 closed session (14:00 - 17:00) | future plan discussions with invited guests
+
+
 
 
 
