@@ -28,8 +28,8 @@ BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.
   <h3>Transport Schedule (2026)</h3>
   <p>
     You can view or download the latest ferry and transport schedule here: 
-    <a href="https://www.loloataislandresort.com/library/2026-new-ferry-and-transport-service-schedule-v2.pdf" target="_blank" rel="noopener noreferrer">
-      2026 Ferry & Transport PDF
+    <a href="https://www.loloataislandresort.com/day-passes" target="_blank" rel="noopener noreferrer">
+      2026 Ferry & Transport
     </a>.
   </p>
 </section>
