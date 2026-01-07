@@ -269,4 +269,6 @@ you will receive the notification on a email basis as the committee will discuss
 
 For more information, email: `bridges.png@gmail.com`
 
-<img src="images/sponsor1.jpeg" alt="Sponsor Logo">
+<footer>
+  <img src="images/WhatsApp Image 2026-01-07 at 06.50.13.jpeg" alt="Sponsor Logo">
+</footer>
