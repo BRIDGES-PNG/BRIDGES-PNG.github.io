@@ -27,14 +27,14 @@ Participants will receive a *certificate of attendance*.
 ## Venue
 BRIDGES2026 will take place at [Loloata resort](https://www.loloataislandresort.com/), which is located on an island off the coast of Port Moresby, capital of Pacific nation, Papua New Guinea (PNG). Known as the land of the unexpected, locals speak over 850 languages and have a diverse culture, flora and fauna (like the Bird of Paradise and the world's largest butterfly, the Queen Alexandra Birdwing), making PNG one of the last untouched locations on the planet. 
 
+
   <h3>Transport Schedule (2026)</h3>
   <p>
     You can view or download the latest ferry and transport schedule here: 
-    <a href="https://www.loloataislandresort.com/library/2026-new-ferry-and-transport-service-schedule-v2.pdf" target="_blank" rel="noopener noreferrer">
-      2026 Ferry & Transport PDF
+    <a href="https://www.loloataislandresort.com/day-passes" target="_blank" rel="noopener noreferrer">
+      2026 Ferry & Transport
     </a>.
   </p>
-</section>
 
 
 ---
@@ -119,6 +119,7 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 
 
+<<<<<<< HEAD
 
 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
@@ -126,6 +127,8 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
 
 
+=======
+>>>>>>> 50ad5920d9ff4ae96dd4c8887d97aea6efd67212
 
 <html>
 <head>
@@ -258,8 +261,7 @@ you will receive the notification on a email basis as the committee will discuss
 - Prof. Raula Gaikovina Kula (The University of Osaka)
 - Prof. Youmei Fan (Nara Institute of Science and Technology)
 - Dr. Benson Mirou (Papua New Guinea University of Technology)
-- Winifred Kula (Bank of South Pacific)
-
+- Winifred Kula (eNovaX solutions, Bank of South Pacific) * Her contribution is outside of the interests and her role at her BSP employment.
 
 ---
 
