@@ -1,5 +1,4 @@
 
-
 ---
 # Summer School in The South Pacific.  
 **Bridging the Divides with Globally Engineered Software**  
@@ -226,7 +225,7 @@ The BRIDGES Summer school will also accept international participants that would
 To apply, please send an email to bridges.png@gmail.com and motivation for participation (500 words max).  
 
 If your application is accepted, you’ll receive instructions on how to proceed on payment.
-you will receive the notification on a email basis as the committee will discuss acceptance.
+you will receive the notification on a email basis as the committee will discuss acceptance.
 
 ---
 
