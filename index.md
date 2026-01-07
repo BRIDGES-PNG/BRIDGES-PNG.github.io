@@ -18,6 +18,8 @@ Previous editions:
 
 With the rise of AI technologies in Software Engineering (SE), this school demonstrates how communities like Papua New Guinea can use these tools to foster equality and democratic participation within their local software ecosystems. For the global SE community, such diverse contexts reveal innovative methods for developing solutions and contributing meaningfully to the open-source (OSS) world.
 
+- **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
+- **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
 
 The 3-day program is taught in *English* and will be held at *Loloata Island Resort*, Port Moresby, Papua New Guinea.  
 Participants will receive a *certificate of attendance*.
@@ -264,3 +266,5 @@ you will receive the notification on a email basis as the committee will discuss
 #  Contact
 
 For more information, email: `bridges.png@gmail.com`
+
+<img src="images/sponsor1.jpeg" alt="Sponsor Logo">
