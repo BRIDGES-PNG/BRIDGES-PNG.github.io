@@ -114,21 +114,11 @@ Session | Details
 12:30 - 13:30 | Closing.
 ------------ | -------------
 closed session (14:00 - 17:00) | future plan discussions with invited guests
-
-
-
-
-<<<<<<< HEAD
-
-
+ 
 - **Research**: Gain early feedback on your research from experts. presentation skills, and seek potential collaborators.
 - **Education**: Learn about the latest trends in Software such as the impact of generative Artificial Intelligence and augmented computing and visualization.
 - **Promotion of Young Researchers**: Contribute to nurturing the next generation of world-class Young Researchers in the early stages of their careers. 
-
-
-=======
->>>>>>> 50ad5920d9ff4ae96dd4c8887d97aea6efd67212
-
+ 
 <html>
 <head>
   <title>BRIDGES Speaker Abstracts</title>
