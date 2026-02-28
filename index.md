@@ -245,7 +245,7 @@ you will receive the notification on a email basis as the committee will discuss
 
 ## Event Highlights
 
-<img src="WhatsApp Image 2026-02-27 at 22.26.25 (1).jpeg so this is the image">
+<img src="WhatsApp Image 2026-02-27 at 22.26.25 (1).jpeg">
 
 
 ---
