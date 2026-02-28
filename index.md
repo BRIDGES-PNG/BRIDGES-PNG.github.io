@@ -245,7 +245,7 @@ you will receive the notification on a email basis as the committee will discuss
 
 ## Event Highlights
 
-![Volunteers setting up the runway](/assets/images/events/WhatsApp%20Image%202026-02-27%20at%2022.26.25%20(1).jpeg "Volunteers setting up the runway")
+![Event highlight image](/assets/images/events/WhatsApp%20Image%202026-02-27%20at%2022.26.25%20(1).jpeg)
 
 ---
 
