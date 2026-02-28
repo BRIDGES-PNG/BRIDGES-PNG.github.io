@@ -252,6 +252,11 @@ you will receive the notification on a email basis as the committee will discuss
   </p>
 </div>
 
+
+## Event Highlights
+
+![Volunteers setting up the runway](/assets/images/events/WhatsApp%20Image%202026-02-27%20at%2022.26.25%20(1).jpeg "Volunteers setting up the runway")
+
 ---
 
 #  Meet the Team
