@@ -15,6 +15,42 @@ The Summer School is designed to provide participants with practical software so
 
 <img src="WhatsApp Image 2026-02-27 at 22.26.25 (1).jpeg">
 
+<section id="hackathon-outcomes">
+  <h2>Hackathon Outcomes</h2>
+  <p>Based on the teams, students attending the hackathon were able to produce the following:</p>
+
+  <h3>🎯 Prototypes Developed</h3>
+  <ul>
+    <li>
+      <strong>1st Place: Emergency Info Holder</strong><br>
+      <a href="https://github.com/EzraMulaga/Bridges-26---Team-TokTok" target="_blank">
+        https://github.com/EzraMulaga/Bridges-26---Team-TokTok
+      </a>
+    </li>
+    <li>
+      <strong>Smart Attendance Recorder</strong><br>
+      <a href="https://github.com/enoshamof2021/UPNG_Smart_Attendence_Recorder" target="_blank">
+        https://github.com/enoshamof2021/UPNG_Smart_Attendence_Recorder
+      </a>
+    </li>
+    <li>
+      <strong>MoniHub</strong><br>
+      <a href="https://github.com/nessktn/MoniHub" target="_blank">
+        https://github.com/nessktn/MoniHub
+      </a>
+    </li>
+  </ul>
+
+  <h3>📢 Talks Presented</h3>
+  <p>Four talks were delivered on AI in the context of Papua New Guinea and its potential relevance.</p>
+
+  <h3>📊 Survey</h3>
+  <p>
+    A participant survey was conducted. We plan to analyze the results for submission to a journal or workshop in the field of software engineering.
+  </p>
+</section>
+
+
 Previous editions:
 - [BRIDGES 2023](https://naist-se.github.io/PNG-BRIDGES)
 - [BRIDGES 2019](https://naist-se.github.io/BRIDGES2019)
