@@ -19,7 +19,7 @@ The Summer School is designed to provide participants with practical software so
   <h2>Hackathon Outcomes</h2>
   <p>Based on the teams, students attending the hackathon were able to produce the following:</p>
 
-  <h3>🎯 Prototypes Developed</h3>
+  <h3> Prototypes Developed</h3>
   <ul>
     <li>
       <strong>1st Place: Emergency Info Holder</strong><br>
@@ -41,10 +41,10 @@ The Summer School is designed to provide participants with practical software so
     </li>
   </ul>
 
-  <h3>📢 Talks Presented</h3>
+  <h3> Talks Presented</h3>
   <p>Four talks were delivered on AI in the context of Papua New Guinea and its potential relevance.</p>
 
-  <h3>📊 Survey</h3>
+  <h3> Survey</h3>
   <p>
     A participant survey was conducted. We plan to analyze the results for submission to a journal or workshop in the field of software engineering.
   </p>
