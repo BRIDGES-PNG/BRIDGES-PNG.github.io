@@ -11,6 +11,10 @@
 
 The Summer School is designed to provide participants with practical software solutions in a unique region of the world, while advancing the goal of making software engineering universal—accessible to anyone, anywhere, without technical, cultural, or educational barriers.
 
+## Event Highlights
+
+<img src="WhatsApp Image 2026-02-27 at 22.26.25 (1).jpeg">
+
 Previous editions:
 - [BRIDGES 2023](https://naist-se.github.io/PNG-BRIDGES)
 - [BRIDGES 2019](https://naist-se.github.io/BRIDGES2019)
@@ -242,10 +246,6 @@ you will receive the notification on a email basis as the committee will discuss
   </p>
 </div>
 
-
-## Event Highlights
-
-<img src="WhatsApp Image 2026-02-27 at 22.26.25 (1).jpeg">
 
 
 ---
