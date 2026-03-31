@@ -172,6 +172,11 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
   <p>
     Have you ever felt like software just doesn't "click" with the way you think? Recent research shows this isn't just in your head—some software actually works better for certain thinking styles than others. This is also true for the software tools that software engineers use to build and maintain software. I'll share our studies on two widely-used tools: the PyCharm debugger (which helps find and fix bugs) and GitHub Copilot (an AI coding assistant). You'll learn about the inclusivity issues we found and, more importantly, discover practical strategies for working with these tools effectively, regardless of your natural thinking style. I'll also help you identify your own cognitive preferences so you can choose approaches that work best for you as you begin your software engineering journey.
   </p>
+   <p>
+  <a href="https://bridges-png.github.io/2026_BRIDGESBlincoe.pdf" target="_blank">
+    slides
+  </a>
+</p>
 
   <h2>Associate Professor MarK Cheong</h2>
 
@@ -188,7 +193,11 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
   </p>
   <p>
     Then, I will discuss the benefits found in initiatives such as the open source movement and others in promoting accessibility, fairness, and equality of opportunity. Finally, some practical tips will be offered to participants on how they can begin their journey as software developers in a responsible and ethical manner, by learning from the various issues surrounding contemporary technology, and adopting responsible usage/development practices.
-  </p>
+  < <p>
+  <a href="https://bridges-png.github.io/BRIDGES-2026 Keynote marc.pdf" target="_blank">
+    slides
+  </a>
+</p>
 </body>
 </html>
 
@@ -231,6 +240,10 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 <p>
   His current research interests include trustworthy AI, empirical software engineering, software analytics, and the engineering of dependable 
   large-scale systems.
+  <a href="https://bridges-png.github.io/Foutse-Talk-BRIDGES.pdf" target="_blank">
+    slides
+  </a>
+
 </p>
 ---
 
