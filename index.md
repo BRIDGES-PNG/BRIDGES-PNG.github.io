@@ -248,23 +248,31 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 ---
 
-## Tuition Fee
+<h2>Tuition Fee</h2>
 
-| Category     | Fee (PGK)        | Deadline        |
-|--------------|------------------|-----------------|
-| Students     | Free (30 spaces) | —               |
-| Early Bird   | 400 PGK          | Before Dec 1    |
-| Regular      | 600 PGK          | After Dec 1     |
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Fee (PGK)</th>
+    <th>Deadline</th>
+  </tr>
+  <tr>
+    <td>Students</td>
+    <td>Free (30 spaces)</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Early Bird</td>
+    <td>400 PGK</td>
+    <td>Before Dec 1</td>
+  </tr>
+  <tr>
+    <td>Regular</td>
+    <td>600 PGK</td>
+    <td>After Dec 1</td>
+  </tr>
+</table>
 
-**Included**
-- All classes and course materials  
-- Lunches and coffee breaks  
-- Social dinner  
-
-**Not Included**
-- Flights  
-- Transportation  
-- Accommodation  
 
 
 
