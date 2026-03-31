@@ -204,9 +204,6 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
   often working from high-level prompts or specifications rather than line-by-line instructions. 
   Drawing on my current research into AI agent-driven software development, I will present a quantitative analysis of 
   how closely autonomous program generation and modification by AI agents has come to replicating human development processes.
-  <a href="files/Bridge2026Talk_YutaroKashiwa.pdf" target="_blank">
-  Download the presentation
-</a>
 
 </p>
 
