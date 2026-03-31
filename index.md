@@ -13,7 +13,7 @@ The Summer School is designed to provide participants with practical software so
 
 ## Event Highlights
 
-<img src="WhatsApp Image 2026-02-27 at 22.26.25 (1).jpeg">
+<img src="bridegeseventpics.jpeg">
 
 <section id="hackathon-outcomes">
   <h2>Hackathon Outcomes</h2>
@@ -194,7 +194,7 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 <h2>Associate Professor Yutaro Kashiwa</h2>
 
-<img align="right" height="200" src="WhatsApp Image 2025-12-13 at 19.37.53.jpeg" alt="Associate Professor Yutaro Kashiwa">
+<img align="right" height="200" src="profyutaro.jpeg" alt="Associate Professor Yutaro Kashiwa">
 <h3>The State of Agentic Coding: How Close Have AI Agents Come to Human Developers?</h3>
 
 <p>
@@ -209,7 +209,7 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 <h2>Prof. Foutse Khomh</h2>
 
-<img align="right" height="200" src="WhatsApp Image 2026-01-01 at 20.56.47.jpeg" alt="Prof. Foutse Khomh">
+<img align="right" height="200" src="proffoutsekhomh.jpeg" alt="Prof. Foutse Khomh">
 <h3>Software Engineering and Trustworthy AI</h3>
 <p>
   Foutse Khomh is a Professor of Software Engineering at Polytechnique Montréal, Canada, and Canada Research Chair in Software Quality Assurance. 
