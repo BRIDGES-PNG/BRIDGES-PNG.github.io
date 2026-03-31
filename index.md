@@ -300,4 +300,4 @@ you will receive the notification on a email basis as the committee will discuss
 
 For more information, email: `bridges.png@gmail.com`
 
-<img src="logo for bridges">
+<img src="logo for bridges.jpeg">
