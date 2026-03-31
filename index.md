@@ -240,11 +240,10 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 <p>
   His current research interests include trustworthy AI, empirical software engineering, software analytics, and the engineering of dependable 
   large-scale systems.
+  <p>
   <a href="https://bridges-png.github.io/Foutse-Talk-BRIDGES.pdf" target="_blank">
     slides
   </a>
-  </p>
-
 </p>
 
 ---
