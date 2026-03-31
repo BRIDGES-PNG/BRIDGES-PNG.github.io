@@ -275,55 +275,64 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 
 
+<hr>
 
----
+<h2>Call For International Participants (Deadline November 14th, 2025)</h2>
 
-##  Call For International Participants (Deadline November 14th, 2025)
+<p>
+  The BRIDGES Summer school will also accept international participants that would also request to mentor students or provide feedback.
+  To apply, please send an email to <strong>bridges.png@gmail.com</strong> and motivation for participation (500 words max).
+</p>
 
-The BRIDGES Summer school will also accept international participants that would also request to mentor students or provide feedback.
-To apply, please send an email to bridges.png@gmail.com and motivation for participation (500 words max).  
+<p>
+  If your application is accepted, you’ll receive instructions on how to proceed on payment.
+  you will receive the notification on a email basis as the committee will discuss acceptance.
+</p>
 
-If your application is accepted, you’ll receive instructions on how to proceed on payment.
-you will receive the notification on a email basis as the committee will discuss acceptance.
-
----
+<hr>
 
 <div class="section">
   <h2>Call For Participants Process</h2>
   <p>(Deadline November 14th, 2025)</p>
+
   <p>
     To apply for the summer school, please send an email to 
     <strong>bridges.png@gmail.com</strong> a cover letter with your motivation and background details (500 words max), 
     as well as your resume CV.
   </p>
+
   <p>
     We accept registrations as teams or individuals. Please note that we have limited spaces, so please register as soon as you can. 
     Also, spaces is determined by the location. University students will have free registration (subsidized upon registration).
   </p>
+
   <p>
     Alternatively, you can either fill out this participants registration application form. Registration form
   </p>
+
   <p>
     If your application is accepted, you’ll receive instructions on how to proceed with the registraion payment after November 14th.
   </p>
+
   <p class="highlight">
     Late registration closes on 5 January — no registrations will be accepted after this date.
   </p>
 </div>
 
+<hr>
 
+<h1>Meet the Team</h1>
 
----
+<p><strong>Organizing Team</strong></p>
+<ul>
+  <li>Prof. Raula Gaikovina Kula (The University of Osaka)</li>
+  <li>Prof. Youmei Fan (Nara Institute of Science and Technology)</li>
+  <li>Dr. Benson Mirou (Papua New Guinea University of Technology)</li>
+  <li>Winifred Kula (eNovaX solutions, Bank of South Pacific) * Her contribution is outside of the interests and her role at her BSP employment.</li>
+</ul>
 
-#  Meet the Team
+<hr>
 
-**Organizing Team**
-- Prof. Raula Gaikovina Kula (The University of Osaka)
-- Prof. Youmei Fan (Nara Institute of Science and Technology)
-- Dr. Benson Mirou (Papua New Guinea University of Technology)
-- Winifred Kula (eNovaX solutions, Bank of South Pacific) * Her contribution is outside of the interests and her role at her BSP employment.
-
----
 
 #  Contact
 
