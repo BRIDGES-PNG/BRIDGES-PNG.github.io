@@ -250,7 +250,6 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
 
 ##  Tuition Fee
 
-## Tuition Fee
 
 | Category     | Fee (PGK)        | Deadline               |
 |--------------|------------------|------------------------|
