@@ -206,7 +206,7 @@ closed session (14:00 - 17:00) | future plan discussions with invited guests
   how closely autonomous program generation and modification by AI agents has come to replicating human development processes.
   <p>
   <a href="https://bridges-png.github.io/Bridge2026Talk_YutaroKashiwa.pdf" target="_blank">
-    presentation
+    slides
   </a>
 </p>
 
