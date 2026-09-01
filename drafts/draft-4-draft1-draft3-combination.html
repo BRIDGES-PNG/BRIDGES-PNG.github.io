@@ -1,0 +1,512 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Draft 4 — Draft 1 + Draft 3 Combination</title>
+  <style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6;margin:0;background:#f7fbfc;color:#233;}
+main{max-width:1040px;margin:0 auto;padding:24px;}
+table{border-collapse:collapse;margin:1rem 0;}
+td,th{border:1px solid #d8e5e8;padding:.55rem;text-align:left;}
+a{color:#0b5f8a;}
+</style>
+</head>
+<body>
+  <main>
+
+<style>
+  :root {
+    --ink: #1f2d35;
+    --muted: #60717d;
+    --navy: #09233f;
+    --ocean: #0f6f86;
+    --teal: #26a69a;
+    --gold: #e9b44c;
+    --coral: #d95d59;
+    --sand: #fffaf0;
+    --paper: #ffffff;
+    --line: #dfe9ec;
+    --soft-blue: #f3faf9;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  .page-wrap {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .simple-nav {
+    border-top: 4px solid var(--teal);
+    border-bottom: 1px solid var(--line);
+    padding: 0.75rem 0;
+    margin: 1rem 0 2rem;
+  }
+
+  .simple-nav a {
+    display: inline-block;
+    margin: 0.25rem 0.9rem 0.25rem 0;
+    color: var(--navy);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .masthead {
+    background: var(--sand);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 2.3rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 26px rgba(9, 35, 63, 0.06);
+  }
+
+  .masthead::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(90deg, var(--navy), var(--ocean), var(--teal), var(--gold), var(--coral));
+  }
+
+  .masthead::after {
+    content: "";
+    position: absolute;
+    right: -45px;
+    bottom: -55px;
+    width: 180px;
+    height: 120px;
+    border: 10px solid rgba(15, 111, 134, 0.16);
+    border-top-color: rgba(233, 180, 76, 0.32);
+    border-radius: 50% 50% 0 0;
+    transform: rotate(-10deg);
+  }
+
+  .masthead-inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(230px, 0.65fr);
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  .label {
+    color: var(--ocean);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+  }
+
+  .masthead h1 {
+    margin: 0.4rem 0 0.25rem;
+    color: var(--navy);
+    font-size: clamp(2.35rem, 4.8vw, 4rem);
+    line-height: 1.03;
+  }
+
+  .masthead h2 {
+    color: var(--ink);
+    font-weight: 650;
+    margin: 0.35rem 0 0.9rem;
+    font-size: clamp(1.2rem, 2vw, 1.65rem);
+  }
+
+  .masthead p {
+    color: var(--ink);
+    font-size: 1.05rem;
+  }
+
+  .status-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .status-row span {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.45rem 0.75rem;
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  .logo-frame {
+    min-height: 230px;
+    display: grid;
+    place-items: center;
+    border: 2px dashed #bfd8dd;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.82);
+    padding: 1.2rem;
+    color: var(--muted);
+    text-align: center;
+    box-shadow: 0 8px 22px rgba(9, 35, 63, 0.08);
+  }
+
+  .logo-frame img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+
+  .section-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 1.45rem;
+    margin: 1.1rem 0;
+    box-shadow: 0 8px 22px rgba(9, 35, 63, 0.05);
+  }
+
+  .section-card h2 {
+    color: var(--navy);
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+  }
+
+  .accent-line {
+    width: 86px;
+    height: 4px;
+    border-radius: 99px;
+    background: linear-gradient(90deg, var(--teal), var(--gold));
+    margin: 0.4rem 0 1rem;
+  }
+
+  .placeholder {
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .two-col, .three-col {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .two-col { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .three-col { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+
+  .focus-card {
+    background: var(--soft-blue);
+    border-left: 5px solid var(--teal);
+    border-radius: 14px;
+    padding: 1rem;
+  }
+
+  .focus-card strong, .plain-card strong {
+    color: var(--ocean);
+  }
+
+  .plain-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem;
+  }
+
+  .program-block {
+    border-left: 4px solid var(--teal);
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0;
+  }
+
+  th, td {
+    border: 1px solid var(--line);
+    padding: 0.65rem;
+    text-align: left;
+  }
+
+  th {
+    background: var(--soft-blue);
+    color: var(--navy);
+  }
+
+  .speaker-card {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1rem;
+  }
+
+  .speaker-photo {
+    min-height: 150px;
+    border: 2px dashed #bfd8dd;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: var(--soft-blue);
+    color: var(--muted);
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .speaker-card h3 {
+    margin-top: 0;
+    color: var(--navy);
+  }
+
+  .apply-box {
+    background: #f8fcfc;
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--coral);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .footer-contact {
+    background: var(--navy);
+    color: white;
+    border-radius: 12px;
+    padding: 1.3rem;
+    margin: 1.5rem 0;
+  }
+
+  .footer-contact h2,
+  .footer-contact a {
+    color: white;
+  }
+
+  @media (max-width: 720px) {
+    .masthead { padding: 1.5rem; }
+    .masthead-inner { grid-template-columns: 1fr; }
+    .speaker-card { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="page-wrap">
+  <nav class="simple-nav" aria-label="Website sections">
+    <a href="#about">About</a>
+    <a href="#focus-areas">Focus Areas</a>
+    <a href="#highlights">Highlights</a>
+    <a href="#venue">Venue</a>
+    <a href="#program">Program</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#fees">Fees</a>
+    <a href="#participants">Apply</a>
+    <a href="#team">Team</a>
+    <a href="#past-editions">Past Editions</a>
+  </nav>
+
+  <header class="masthead" id="workshop-logo">
+    <div class="masthead-inner">
+      <div>
+        <div class="label">BRIDGES 2027 · South Pacific Summer School</div>
+        <h1>Summer School in the South Pacific</h1>
+        <h2>Bridging the Divides with Globally Engineered Software</h2>
+        <p>
+          A practical, community-centered summer school connecting Papua New Guinea and the Pacific with
+          software engineering, AI, open source, and emerging technologies.
+        </p>
+        <div class="status-row">
+          <span>Dates to be announced</span>
+          <span>Venue to be announced</span>
+          <span>Registration coming soon</span>
+        </div>
+      </div>
+      <div class="masthead-logo">
+        <div class="logo-frame">
+          <p>Final workshop logo will be placed here.</p>
+          <!-- When the logo is ready, replace the paragraph above with an image like this:
+          <img src="img/bridges-2027-logo.png" alt="BRIDGES 2027 workshop logo">
+          -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="section-card" id="about">
+    <h2>About BRIDGES 2027</h2>
+    <div class="accent-line"></div>
+    <p>
+      BRIDGES 2027 will continue the mission of making software engineering more accessible,
+      inclusive, and globally connected. The summer school will focus on practical software solutions,
+      responsible AI, open-source collaboration, and emerging technologies in the context of Papua New
+      Guinea and the wider Pacific region.
+    </p>
+    <p class="placeholder">Final 2027 theme and description coming soon.</p>
+  </div>
+
+  <div class="section-card" id="focus-areas">
+    <h2>Core Focus Areas</h2>
+    <div class="accent-line"></div>
+    <div class="three-col">
+      <div class="focus-card">
+        <strong>Research</strong>
+        <p>Gain feedback, develop ideas, and connect with software engineering researchers and mentors.</p>
+      </div>
+      <div class="focus-card">
+        <strong>Education</strong>
+        <p>Learn practical skills in software engineering, AI tools, visualization, GitHub, and open source.</p>
+      </div>
+      <div class="focus-card">
+        <strong>Community</strong>
+        <p>Build bridges between Pacific communities, young researchers, global experts, and technology.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="highlights">
+    <h2>Event Highlights</h2>
+    <div class="accent-line"></div>
+    <div class="two-col">
+      <div class="plain-card">
+        <strong>Hands-on Learning</strong>
+        <p class="placeholder">Workshops, tutorials, and activities to be announced.</p>
+      </div>
+      <div class="plain-card">
+        <strong>Hackathon / Team Challenge</strong>
+        <p class="placeholder">Challenge theme and participation details coming soon.</p>
+      </div>
+      <div class="plain-card">
+        <strong>Keynote Talks</strong>
+        <p class="placeholder">Speaker lineup and abstracts coming soon.</p>
+      </div>
+      <div class="plain-card">
+        <strong>Pacific + Emerging Technology</strong>
+        <p>Exploring how AI and software engineering can support local innovation and inclusive participation.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="venue">
+    <h2>Venue</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">2027 venue to be announced.</p>
+    <p>This section will include venue description, transport schedule, accommodation guidance, and travel information.</p>
+  </div>
+
+  <div class="section-card" id="program">
+    <h2>Overview of Program</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">Detailed 2027 schedule coming soon. Draft structure below.</p>
+
+    <div class="program-block">
+      <h3>Day 1 — Welcome and Foundations</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Registration, welcome, and opening remarks</td></tr>
+        <tr><td>Midday</td><td>Keynote talks and introductions</td></tr>
+        <tr><td>Afternoon</td><td>Git, GitHub, software tools, and AI-assisted development</td></tr>
+      </table>
+    </div>
+
+    <div class="program-block">
+      <h3>Day 2 — Learning and Building</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Technical sessions and tutorials</td></tr>
+        <tr><td>Midday</td><td>Team challenge or hackathon work</td></tr>
+        <tr><td>Afternoon</td><td>Mentoring, prototyping, and group feedback</td></tr>
+      </table>
+    </div>
+
+    <div class="program-block">
+      <h3>Day 3 — Presentations and Future Directions</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Team presentations and live feedback</td></tr>
+        <tr><td>Midday</td><td>Awards, certificates, and closing remarks</td></tr>
+        <tr><td>Afternoon</td><td>Future planning discussions</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section-card" id="speakers">
+    <h2>Speakers and Abstracts</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">Speaker names, photos, biographies, talk titles, abstracts, and slides will be added here.</p>
+    <div class="speaker-card">
+      <div class="speaker-photo">Speaker photo</div>
+      <div>
+        <h3>Speaker 1</h3>
+        <p><strong>Background:</strong> Speaker biography, affiliation, and research background to be added.</p>
+        <p><strong>Talk / Research Abstract:</strong> Abstract details to be added with enough space for a full paragraph summary.</p>
+      </div>
+    </div>
+    <div class="speaker-card">
+      <div class="speaker-photo">Speaker photo</div>
+      <div>
+        <h3>Speaker 2</h3>
+        <p><strong>Background:</strong> Speaker biography, affiliation, and research background to be added.</p>
+        <p><strong>Talk / Research Abstract:</strong> Abstract details to be added with enough space for a full paragraph summary.</p>
+      </div>
+    </div>
+    <div class="speaker-card">
+      <div class="speaker-photo">Speaker photo</div>
+      <div>
+        <h3>Speaker 3</h3>
+        <p><strong>Background:</strong> Speaker biography, affiliation, and research background to be added.</p>
+        <p><strong>Talk / Research Abstract:</strong> Abstract details to be added with enough space for a full paragraph summary.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="fees">
+    <h2>Tuition Fee</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">2027 fee structure and deadlines to be announced.</p>
+    <table>
+      <tr><th>Category</th><th>Fee</th><th>Deadline</th></tr>
+      <tr><td>Students</td><td>To be announced</td><td>To be announced</td></tr>
+      <tr><td>Early Bird</td><td>To be announced</td><td>To be announced</td></tr>
+      <tr><td>Regular</td><td>To be announced</td><td>To be announced</td></tr>
+    </table>
+  </div>
+
+  <div class="section-card" id="participants">
+    <h2>Call for Participants</h2>
+    <div class="accent-line"></div>
+    <div class="apply-box">
+      <p>
+        BRIDGES 2027 will welcome students, researchers, practitioners, mentors, and international participants
+        interested in software engineering, AI, emerging technologies, and Pacific-centered innovation.
+      </p>
+      <p class="placeholder">Application instructions, deadlines, registration form, and participant requirements coming soon.</p>
+    </div>
+  </div>
+
+  <div class="section-card" id="team">
+    <h2>Meet the Team</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">2027 organizing team details coming soon.</p>
+    <ul>
+      <li>Organizer names and affiliations to be added.</li>
+      <li>Local partners and supporting institutions to be added.</li>
+    </ul>
+  </div>
+
+  <div class="section-card" id="past-editions">
+    <h2>Past Editions</h2>
+    <div class="accent-line"></div>
+    <ul>
+      <li><a href="./2026/">BRIDGES 2026</a></li>
+      <li><a href="https://naist-se.github.io/PNG-BRIDGES">BRIDGES 2023</a></li>
+      <li><a href="https://naist-se.github.io/BRIDGES2019">BRIDGES 2019</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-contact" id="contact">
+    <h2>Contact</h2>
+    <p>For more information, email: <strong>bridges.png@gmail.com</strong></p>
+  </div>
+</div>
+  </main>
+</body>
+</html>
