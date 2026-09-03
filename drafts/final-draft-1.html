@@ -93,20 +93,20 @@ a{color:#0b5f8a;}
 
   .title-lockup {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 0.65rem;
-    margin: 0.25rem 0 0.35rem;
+    margin: 0.08rem 0 0;
   }
 
   .logo-frame {
-    flex: 0 0 325px;
+    flex: 0 0 375px;
     display: grid;
     place-items: center;
-    margin-left: -0.35rem;
+    margin-left: -0.85rem;
   }
 
   .logo-frame img {
-    max-width: 325px;
+    max-width: 375px;
     width: 100%;
     height: auto;
     display: block;
@@ -132,15 +132,19 @@ a{color:#0b5f8a;}
   }
 
   .masthead h2 {
-    color: var(--ink);
-    font-weight: 650;
-    margin: 0.35rem 0 0.9rem;
-    font-size: clamp(1.2rem, 2vw, 1.65rem);
+    color: var(--muted);
+    font-weight: 600;
+    margin: 2rem 0 1.25rem;
+    font-size: clamp(1.05rem, 1.55vw, 1.3rem);
+    line-height: 1.35;
   }
 
   .masthead p {
-    color: var(--ink);
-    font-size: 1.05rem;
+    color: var(--muted);
+    font-size: 0.98rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0 0 1rem;
   }
 
   .status-row {
@@ -288,6 +292,7 @@ a{color:#0b5f8a;}
   @media (max-width: 720px) {
     .masthead { padding: 1.35rem; }
     .title-lockup { gap: 0.45rem; }
+    .masthead h2 { margin-top: 1.5rem; }
     .logo-frame { flex-basis: 165px; }
     .logo-frame img { max-width: 165px; }
     .speaker-card { grid-template-columns: 1fr; }
