@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Final Draft 1 — BRIDGES 2027 Website</title>
   <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6;margin:0;background:#f7fbfc;color:#233;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6;margin:0;background:#F7FAFC;color:#60717D;}
 main{max-width:1040px;margin:0 auto;padding:24px;}
 table{border-collapse:collapse;margin:1rem 0;}
-td,th{border:1px solid #d8e5e8;padding:.55rem;text-align:left;}
-a{color:#0b5f8a;}
+td,th{border:1px solid #DFE9EC;padding:.55rem;text-align:left;}
+a{color:#0F6F86;}
 </style>
 </head>
 <body>
@@ -17,17 +17,16 @@ a{color:#0b5f8a;}
 
 <style>
   :root {
-    --ink: #1f2d35;
-    --muted: #60717d;
-    --navy: #09233f;
-    --ocean: #0f6f86;
-    --teal: #26a69a;
-    --gold: #e9b44c;
-    --coral: #d95d59;
-    --sand: #fffaf0;
-    --paper: #ffffff;
-    --line: #dfe9ec;
-    --soft-blue: #f3faf9;
+    --ink: #09233F;
+    --muted: #60717D;
+    --navy: #09233F;
+    --ocean: #0F6F86;
+    --teal: #26A69A;
+    --gold: #E9B44C;
+    --sand: #FFFAF0;
+    --paper: #FFFFFF;
+    --line: #DFE9EC;
+    --soft-blue: #F7FAFC;
   }
 
   html { scroll-behavior: smooth; }
@@ -70,7 +69,7 @@ a{color:#0b5f8a;}
     left: 0;
     right: 0;
     height: 10px;
-    background: linear-gradient(90deg, var(--navy), var(--ocean), var(--teal), var(--gold), var(--coral));
+    background: linear-gradient(90deg, var(--navy), var(--ocean), var(--teal));
   }
 
   .masthead-inner {
@@ -213,7 +212,7 @@ a{color:#0b5f8a;}
     width: 86px;
     height: 4px;
     border-radius: 99px;
-    background: linear-gradient(90deg, var(--teal), var(--gold));
+    background: var(--teal);
     margin: 0.4rem 0 1rem;
   }
 
@@ -284,7 +283,7 @@ a{color:#0b5f8a;}
 
   .speaker-photo {
     min-height: 150px;
-    border: 2px dashed #bfd8dd;
+    border: 2px dashed var(--line);
     border-radius: 12px;
     display: grid;
     place-items: center;
@@ -300,9 +299,9 @@ a{color:#0b5f8a;}
   }
 
   .apply-box {
-    background: #f8fcfc;
+    background: var(--paper);
     border: 1px solid var(--line);
-    border-left: 6px solid var(--coral);
+    border-left: 6px solid var(--gold);
     border-radius: 10px;
     padding: 1rem;
   }

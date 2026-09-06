@@ -3,19 +3,25 @@
 
 <style>
   :root {
-    --ink: #1f2d35;
-    --muted: #60717d;
-    --navy: #09233f;
-    --ocean: #0f6f86;
-    --teal: #26a69a;
-    --gold: #e9b44c;
-    --coral: #d95d59;
-    --sand: #fffaf0;
-    --paper: #ffffff;
-    --line: #dfe9ec;
+    --ink: #09233F;
+    --muted: #60717D;
+    --navy: #09233F;
+    --ocean: #0F6F86;
+    --teal: #26A69A;
+    --gold: #E9B44C;
+    --sand: #FFFAF0;
+    --paper: #FFFFFF;
+    --line: #DFE9EC;
   }
 
   html { scroll-behavior: smooth; }
+
+  body {
+    background: #F7FAFC;
+    color: var(--muted);
+  }
+
+  a { color: var(--ocean); }
 
   .page-wrap {
     max-width: 920px;
@@ -54,7 +60,7 @@
     left: 0;
     right: 0;
     height: 10px;
-    background: linear-gradient(90deg, var(--navy), var(--ocean), var(--teal), var(--gold), var(--coral));
+    background: linear-gradient(90deg, var(--navy), var(--ocean), var(--teal));
   }
 
   .masthead::after {
@@ -65,7 +71,7 @@
     width: 180px;
     height: 120px;
     border: 10px solid rgba(15, 111, 134, 0.16);
-    border-top-color: rgba(233, 180, 76, 0.32);
+    border-top-color: rgba(38, 166, 154, 0.28);
     border-radius: 50% 50% 0 0;
     transform: rotate(-10deg);
   }
@@ -157,7 +163,7 @@
     width: 72px;
     height: 4px;
     border-radius: 99px;
-    background: linear-gradient(90deg, var(--teal), var(--gold));
+    background: var(--teal);
     margin: 0.35rem 0 1rem;
   }
 
@@ -204,14 +210,14 @@
   }
 
   th {
-    background: #f3faf9;
+    background: #F7FAFC;
     color: var(--navy);
   }
 
   .apply-box {
-    background: #f8fcfc;
+    background: var(--paper);
     border: 1px solid var(--line);
-    border-left: 6px solid var(--coral);
+    border-left: 6px solid var(--gold);
     border-radius: 10px;
     padding: 1rem;
   }
