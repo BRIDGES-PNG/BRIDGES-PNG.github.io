@@ -133,18 +133,14 @@
     min-height: 210px;
     display: grid;
     place-items: center;
-    border: 2px dashed #bfd8dd;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.78);
     padding: 1.2rem;
-    color: var(--muted);
-    box-shadow: 0 8px 22px rgba(9, 35, 63, 0.08);
   }
 
   .logo-frame img {
-    max-width: 320px;
+    max-width: 375px;
     width: 100%;
     height: auto;
+    display: block;
   }
 
   section {
@@ -266,12 +262,7 @@
       </div>
       <div class="masthead-logo">
         <div class="logo-frame">
-          <p>
-            Final workshop logo will be placed here.
-          </p>
-          <!-- When the logo is ready, replace the paragraph above with an image like this:
-          <img src="img/bridges-2027-logo.png" alt="BRIDGES 2027 workshop logo">
-          -->
+          <img src="img/bridges_logo27_mark.png" alt="BRIDGES 2027 workshop logo">
         </div>
       </div>
     </div>
