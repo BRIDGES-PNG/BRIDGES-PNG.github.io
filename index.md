@@ -24,7 +24,7 @@
   a { color: var(--ocean); }
 
   .page-wrap {
-    max-width: 920px;
+    max-width: 1240px;
     margin: 0 auto;
   }
 
@@ -41,6 +41,18 @@
     color: var(--navy);
     font-weight: 700;
     text-decoration: none;
+  }
+
+  .simple-nav .brand-link {
+    margin-right: 1.3rem;
+    vertical-align: middle;
+  }
+
+  .simple-nav .brand-link img {
+    height: 46px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .masthead {
@@ -191,6 +203,14 @@
     color: var(--ocean);
   }
 
+  .speaker-headshot {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 0.9rem;
+  }
+
   .program-block {
     border-left: 4px solid var(--teal);
     padding-left: 1rem;
@@ -243,6 +263,7 @@
 
 <div class="page-wrap">
   <nav class="simple-nav" aria-label="Website sections">
+    <a class="brand-link" href="#workshop-logo"><img src="img/BRIDGES27_logo%20text.png" alt="BRIDGES 2027"></a>
     <a href="#about">About</a>
     <a href="#highlights">Highlights</a>
     <a href="#venue">Venue</a>
@@ -261,8 +282,8 @@
         <h1>Bridging the Divides with Globally Engineered Software</h1>
         <h2>Papua New Guinea and Pacific communities exploring software engineering, AI, open source, and emerging technologies.</h2>
         <div class="status-row">
-          <span>Dates to be announced</span>
-          <span>Venue to be announced</span>
+          <span>January 9th - 11th, 2027</span>
+          <span>Loloata Island Resort</span>
           <span>Registration coming soon</span>
         </div>
       </div>
@@ -279,11 +300,21 @@
     <h2>About BRIDGES 2027</h2>
     <div class="section-mark"></div>
     <p>
-      BRIDGES 2027 will continue the mission of making software engineering more accessible, inclusive,
-      and globally connected. The summer school will focus on practical software solutions, responsible AI,
-      open-source collaboration, and emerging technologies in the context of Papua New Guinea and the wider Pacific region.
+      BRIDGES 2027 continues the mission of making software engineering more accessible,
+      inclusive, and globally connected in Papua New Guinea and the wider Pacific. The summer
+      school will bring participants together to explore practical software solutions, responsible AI,
+      open-source collaboration, and emerging technologies.
     </p>
-    <p class="placeholder">Final 2027 theme and description coming soon.</p>
+    <p>
+      Under the theme “<strong>Building a Digital App Ecosystem with Agentic AI Technologies</strong>,”
+      participants will develop and showcase AI-enabled applications, prototypes, and ideas through an
+      open digital hub. The initiative aims to encourage collaboration and local innovation while respecting
+      Papua New Guinea’s cultures, languages, regulations, data sovereignty, and social contexts.
+    </p>
+    <p>
+      BRIDGES 2027 will also connect local talent with wider technical and professional communities,
+      helping make Papua New Guinean innovation more visible nationally and internationally.
+    </p>
   </section>
 
   <section id="highlights">
@@ -304,8 +335,8 @@
     <div class="label">Location</div>
     <h2>Venue</h2>
     <div class="section-mark"></div>
-    <p class="placeholder">2027 venue to be announced.</p>
-    <p>This section will include venue description, transport schedule, accommodation guidance, and travel information.</p>
+    <p>BRIDGES 2027 is tentatively planned for <strong>January 9th - 11th, 2027</strong> at <strong>Loloata Island Resort</strong>, Port Moresby, Central Province, Papua New Guinea.</p>
+    <p class="placeholder">Venue description, transport schedule, accommodation guidance, and travel information coming soon.</p>
   </section>
 
   <section id="program">
@@ -349,12 +380,17 @@
     <div class="label">People</div>
     <h2>Speakers and Abstracts</h2>
     <div class="section-mark"></div>
-    <p class="placeholder">Speaker names, photos, biographies, talk titles, abstracts, and slides will be added here.</p>
+    <p>Keynote speaker information is listed below. Additional speaker names, photos, abstracts, and slides will be added here.</p>
     <div class="two-col">
-      <div class="plain-card"><strong>Speaker 1</strong><p>To be announced.</p></div>
-      <div class="plain-card"><strong>Speaker 2</strong><p>To be announced.</p></div>
-      <div class="plain-card"><strong>Speaker 3</strong><p>To be announced.</p></div>
-      <div class="plain-card"><strong>Speaker 4</strong><p>To be announced.</p></div>
+      <div class="plain-card">
+        <img class="speaker-headshot" src="https://staffphoto.smu.edu.sg/s/davidlo/600x400" alt="Prof. David Lo">
+        <strong>Prof. David Lo</strong>
+        <p><em>Vice Provost (Research) &amp; OUB Chair Professor of Computer Science</em><br>
+        <strong>Singapore Management University</strong></p>
+        <p>Professor David Lo is a leading researcher in software engineering and artificial intelligence. His research explores intelligent software engineering, AI-assisted software development, software analytics, and trustworthy software and AI systems. He is also Co-Director of SMU's Centre for Research for Intelligent Software Engineering (RISE).</p>
+        <p><strong>Keynote Title:</strong> To be announced.</p>
+      </div>
+      <div class="plain-card"><strong>Additional Speakers</strong><p>To be announced.</p></div>
     </div>
   </section>
 

@@ -6,7 +6,7 @@
   <title>Final Draft 1 — BRIDGES 2027 Website</title>
   <style>
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6;margin:0;background:#F7FAFC;color:#60717D;}
-main{max-width:1040px;margin:0 auto;padding:24px;}
+main{max-width:1320px;margin:0 auto;padding:32px;}
 table{border-collapse:collapse;margin:1rem 0;}
 td,th{border:1px solid #DFE9EC;padding:.55rem;text-align:left;}
 a{color:#0F6F86;}
@@ -32,7 +32,7 @@ a{color:#0F6F86;}
   html { scroll-behavior: smooth; }
 
   .page-wrap {
-    max-width: 980px;
+    max-width: 1240px;
     margin: 0 auto;
   }
 
@@ -49,6 +49,18 @@ a{color:#0F6F86;}
     color: var(--navy);
     font-weight: 700;
     text-decoration: none;
+  }
+
+  .simple-nav .brand-link {
+    margin-right: 1.3rem;
+    vertical-align: middle;
+  }
+
+  .simple-nav .brand-link img {
+    height: 46px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .masthead {
@@ -272,7 +284,7 @@ a{color:#0F6F86;}
 
   .speaker-card {
     display: grid;
-    grid-template-columns: 150px minmax(0, 1fr);
+    grid-template-columns: 220px minmax(0, 1fr);
     gap: 1rem;
     align-items: start;
     background: var(--paper);
@@ -282,7 +294,7 @@ a{color:#0F6F86;}
   }
 
   .speaker-photo {
-    min-height: 150px;
+    min-height: 220px;
     border: 2px dashed var(--line);
     border-radius: 12px;
     display: grid;
@@ -291,6 +303,14 @@ a{color:#0F6F86;}
     color: var(--muted);
     text-align: center;
     font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  .speaker-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .speaker-card h3 {
@@ -346,6 +366,7 @@ a{color:#0F6F86;}
 
 <div class="page-wrap">
   <nav class="simple-nav" aria-label="Website sections">
+    <a class="brand-link" href="#workshop-logo"><img src="../img/BRIDGES27_logo%20text.png" alt="BRIDGES 2027"></a>
     <a href="#about">About</a>
     <a href="#focus-areas">Focus Areas</a>
     <a href="#highlights">Highlights</a>
@@ -380,7 +401,7 @@ a{color:#0F6F86;}
             </span>
             <div>
               <div class="status-label">Dates</div>
-              <div class="status-value">To be announced</div>
+              <div class="status-value">January 9th - 11th, 2027</div>
             </div>
           </div>
           <div class="status-item">
@@ -389,7 +410,7 @@ a{color:#0F6F86;}
             </span>
             <div>
               <div class="status-label">Venue</div>
-              <div class="status-value">To be announced</div>
+              <div class="status-value">Loloata Island Resort</div>
             </div>
           </div>
           <div class="status-item">
@@ -410,12 +431,21 @@ a{color:#0F6F86;}
     <h2>About BRIDGES 2027</h2>
     <div class="accent-line"></div>
     <p>
-      BRIDGES 2027 will continue the mission of making software engineering more accessible,
-      inclusive, and globally connected. The summer school will focus on practical software solutions,
-      responsible AI, open-source collaboration, and emerging technologies in the context of Papua New
-      Guinea and the wider Pacific region.
+      BRIDGES 2027 continues the mission of making software engineering more accessible,
+      inclusive, and globally connected in Papua New Guinea and the wider Pacific. The summer
+      school will bring participants together to explore practical software solutions, responsible AI,
+      open-source collaboration, and emerging technologies.
     </p>
-    <p class="placeholder">Final 2027 theme and description coming soon.</p>
+    <p>
+      Under the theme “<strong>Building a Digital App Ecosystem with Agentic AI Technologies</strong>,”
+      participants will develop and showcase AI-enabled applications, prototypes, and ideas through an
+      open digital hub. The initiative aims to encourage collaboration and local innovation while respecting
+      Papua New Guinea’s cultures, languages, regulations, data sovereignty, and social contexts.
+    </p>
+    <p>
+      BRIDGES 2027 will also connect local talent with wider technical and professional communities,
+      helping make Papua New Guinean innovation more visible nationally and internationally.
+    </p>
   </div>
 
   <div class="section-card" id="focus-areas">
@@ -463,8 +493,8 @@ a{color:#0F6F86;}
   <div class="section-card" id="venue">
     <h2>Venue</h2>
     <div class="accent-line"></div>
-    <p class="placeholder">2027 venue to be announced.</p>
-    <p>This section will include venue description, transport schedule, accommodation guidance, and travel information.</p>
+    <p>BRIDGES 2027 is tentatively planned for <strong>January 9th - 11th, 2027</strong> at <strong>Loloata Island Resort</strong>, Port Moresby, Central Province, Papua New Guinea.</p>
+    <p class="placeholder">Venue description, transport schedule, accommodation guidance, and travel information coming soon.</p>
   </div>
 
   <div class="section-card" id="program">
@@ -506,13 +536,15 @@ a{color:#0F6F86;}
   <div class="section-card" id="speakers">
     <h2>Speakers and Abstracts</h2>
     <div class="accent-line"></div>
-    <p class="placeholder">Speaker names, photos, biographies, talk titles, abstracts, and slides will be added here.</p>
+    <p>Keynote speaker information is listed below. Additional speaker names, photos, abstracts, and slides will be added here.</p>
     <div class="speaker-card">
-      <div class="speaker-photo">Speaker photo</div>
+      <div class="speaker-photo"><img src="https://staffphoto.smu.edu.sg/s/davidlo/600x400" alt="Prof. David Lo"></div>
       <div>
-        <h3>Speaker 1</h3>
-        <p><strong>Background:</strong> Speaker biography, affiliation, and research background to be added.</p>
-        <p><strong>Talk / Research Abstract:</strong> Abstract details to be added with enough space for a full paragraph summary.</p>
+        <h3>Prof. David Lo</h3>
+        <p><em>Vice Provost (Research) &amp; OUB Chair Professor of Computer Science</em><br>
+        <strong>Singapore Management University</strong></p>
+        <p>Professor David Lo is a leading researcher in software engineering and artificial intelligence. His research explores intelligent software engineering, AI-assisted software development, software analytics, and trustworthy software and AI systems. He is also Co-Director of SMU's Centre for Research for Intelligent Software Engineering (RISE).</p>
+        <p><strong>Keynote Title:</strong> To be announced.</p>
       </div>
     </div>
     <div class="speaker-card">
