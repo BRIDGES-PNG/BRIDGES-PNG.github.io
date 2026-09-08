@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BRIDGES 2027 Summer School in the South Pacific</title>
+  <meta name="description" content="Bridging the Divides with Globally Engineered Software">
+  <style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6;margin:0;background:#F7FAFC;color:#60717D;}
+a{color:#0F6F86;}
+</style>
+</head>
+<body>
+
+<style>
+  :root {
+    --ink: #09233F;
+    --muted: #60717D;
+    --navy: #09233F;
+    --ocean: #0F6F86;
+    --teal: #26A69A;
+    --gold: #E9B44C;
+    --sand: #FFFAF0;
+    --paper: #FFFFFF;
+    --line: #DFE9EC;
+    --soft-blue: #F7FAFC;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  .page-wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  .simple-nav {
+    border-top: 4px solid var(--teal);
+    border-bottom: 1px solid var(--line);
+    padding: 0.75rem 0;
+    margin: 1rem 0 2rem;
+  }
+
+  .simple-nav a {
+    display: inline-block;
+    margin: 0.25rem 0.9rem 0.25rem 0;
+    color: var(--navy);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .simple-nav .brand-link {
+    margin-right: 1.3rem;
+    vertical-align: middle;
+  }
+
+  .simple-nav .brand-link img {
+    height: 46px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .masthead {
+    background: var(--sand);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 3rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 26px rgba(9, 35, 63, 0.06);
+  }
+
+  .masthead::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(90deg, var(--navy), var(--ocean), var(--teal));
+  }
+
+  .masthead-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .title-lockup {
+    display: grid;
+    grid-template-columns: minmax(0, 55fr) minmax(0, 45fr);
+    align-items: center;
+    gap: clamp(2.5rem, 4vw, 3.75rem);
+    margin: 0.6rem 0 0;
+  }
+
+  .logo-frame {
+    display: grid;
+    place-items: center;
+    margin-left: 0;
+    transform: translateY(-12px);
+  }
+
+  .logo-frame img {
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .label {
+    color: var(--ocean);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+  }
+
+  .masthead-copy {
+    max-width: none;
+  }
+
+  .masthead h1 {
+    margin: 0;
+    color: var(--navy);
+    font-size: clamp(2.05rem, 3.85vw, 3.2rem);
+    line-height: 1.07;
+  }
+
+  .masthead h2 {
+    color: var(--muted);
+    font-weight: 600;
+    margin: 0 0 0.9rem;
+    font-size: clamp(1.05rem, 1.55vw, 1.3rem);
+    line-height: 1.35;
+  }
+
+  .masthead p {
+    color: var(--muted);
+    font-size: 0.98rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0 0 2rem;
+    max-width: 900px;
+  }
+
+  .status-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    margin-top: 0;
+    max-width: 900px;
+  }
+
+  .status-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.65rem;
+    padding: 0 1.25rem;
+  }
+
+  .status-item:first-child {
+    padding-left: 0;
+  }
+
+  .status-item + .status-item {
+    border-left: 1px solid var(--line);
+  }
+
+  .status-icon {
+    color: var(--ocean);
+    width: 1.05rem;
+    height: 1.05rem;
+    margin-top: 0.08rem;
+  }
+
+  .status-icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .status-label {
+    color: var(--ocean);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  .status-value {
+    color: var(--navy);
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 0.25rem;
+  }
+
+  .section-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 1.45rem;
+    margin: 1.1rem 0;
+    box-shadow: 0 8px 22px rgba(9, 35, 63, 0.05);
+  }
+
+  .section-card h2 {
+    color: var(--navy);
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+  }
+
+  .accent-line {
+    width: 86px;
+    height: 4px;
+    border-radius: 99px;
+    background: var(--teal);
+    margin: 0.4rem 0 1rem;
+  }
+
+  .placeholder {
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .venue-name {
+    color: var(--navy);
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0 0 0.25rem;
+  }
+
+  .venue-name a {
+    color: var(--navy);
+  }
+
+  .venue-location {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0 0 1rem;
+  }
+
+  .venue-notice {
+    background: var(--soft-blue);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--teal);
+    border-radius: 10px;
+    color: var(--muted);
+    font-style: italic;
+    margin: 1rem 0 0;
+    padding: 0.85rem 1rem;
+  }
+
+  .team-notice {
+    background: var(--soft-blue);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--teal);
+    border-radius: 10px;
+    color: var(--muted);
+    font-style: italic;
+    margin: 1rem 0 0;
+    padding: 0.8rem 1rem;
+  }
+
+  .two-col, .three-col {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .two-col { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .three-col { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+
+  .focus-card {
+    background: var(--soft-blue);
+    border-left: 5px solid var(--teal);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.65rem 0.9rem;
+    transition: box-shadow 0.18s ease, transform 0.18s ease;
+  }
+
+  .focus-card:hover {
+    box-shadow: 0 8px 18px rgba(9, 35, 63, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .focus-heading {
+    align-items: center;
+    display: flex;
+    gap: 0.55rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .focus-icon {
+    color: var(--ocean);
+    flex: 0 0 24px;
+    height: 24px;
+    width: 24px;
+  }
+
+  .focus-icon svg {
+    display: block;
+    fill: none;
+    height: 100%;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 100%;
+  }
+
+  .focus-card strong, .plain-card strong {
+    color: var(--ocean);
+  }
+
+  .focus-card p {
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .plain-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem;
+  }
+
+  .highlight-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .highlight-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    padding: 0.9rem 1rem;
+  }
+
+  .highlight-icon {
+    color: var(--ocean);
+    height: 28px;
+    margin-bottom: 0.65rem;
+    width: 28px;
+  }
+
+  .highlight-icon svg {
+    display: block;
+    fill: none;
+    height: 100%;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 100%;
+  }
+
+  .highlight-card strong {
+    color: var(--ocean);
+  }
+
+  .highlight-card p {
+    color: var(--muted);
+    margin-bottom: 0;
+  }
+
+
+  .program-block {
+    border-left: 4px solid var(--teal);
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0;
+  }
+
+  th, td {
+    border: 1px solid var(--line);
+    padding: 0.65rem;
+    text-align: left;
+  }
+
+  th {
+    background: var(--soft-blue);
+    color: var(--navy);
+  }
+
+  .speaker-card {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1rem;
+  }
+
+  .speaker-photo {
+    min-height: 220px;
+    border: 2px dashed var(--line);
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: var(--soft-blue);
+    color: var(--muted);
+    text-align: center;
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  .speaker-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .speaker-card h3 {
+    margin-top: 0;
+    color: var(--navy);
+  }
+
+  .speaker-label {
+    color: var(--ocean);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .speaker-note {
+    color: var(--muted);
+    font-style: italic;
+    margin: 1rem 0 0;
+  }
+
+  .apply-box {
+    background: var(--paper);
+    border-radius: 10px;
+    padding: 0 0 0.9rem;
+  }
+
+  .apply-box h3 {
+    color: var(--navy);
+    margin: 0 0 0.45rem;
+  }
+
+  .apply-box p {
+    margin: 0;
+  }
+
+  .registration-status {
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--gold);
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .registration-label {
+    color: var(--ocean);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  .registration-value {
+    color: var(--navy);
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-top: 0.25rem;
+  }
+
+  .registration-note {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+  }
+
+  .footer-contact {
+    background: #073B4C;
+    color: #FFFFFF;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 0.95rem 1.3rem;
+    margin: 1.5rem 0;
+  }
+
+  .footer-contact h2 {
+    color: #FFFFFF;
+    margin: 0 0 0.35rem;
+  }
+
+  .footer-accent {
+    width: 64px;
+    height: 3px;
+    border-radius: 99px;
+    background: #26A69A;
+    margin: 0 0 0.85rem;
+  }
+
+  .footer-contact a {
+    color: #FFFFFF;
+    text-decoration-color: #26A69A;
+  }
+
+  .footer-contact p {
+    margin: 0 0 0.25rem;
+  }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .footer-logo {
+    display: block;
+    max-width: 190px;
+    width: 100%;
+    height: auto;
+    flex: 0 0 190px;
+  }
+
+  .footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(223, 233, 236, 0.35);
+    margin: 0.95rem 0 0.65rem;
+  }
+
+  .footer-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #DFE9EC;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 720px) {
+    .masthead { padding: 1.5rem; }
+    .highlight-grid { grid-template-columns: 1fr; }
+    .title-lockup {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      margin-top: 0.6rem;
+    }
+    .logo-frame {
+      place-items: start;
+      transform: none;
+    }
+    .logo-frame img { max-width: 185px; }
+    .masthead h2 { margin-top: 0; }
+    .masthead p { margin-bottom: 1.5rem; }
+    .status-row { grid-template-columns: 1fr; gap: 0.9rem; }
+    .status-item { padding: 0; }
+    .status-item + .status-item {
+      border-left: 0;
+      border-top: 1px solid var(--line);
+      padding-top: 0.9rem;
+    }
+    .footer-inner {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .footer-logo {
+      max-width: 165px;
+      flex-basis: auto;
+    }
+    .footer-accent { margin-left: auto; margin-right: auto; }
+    .footer-meta {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.25rem;
+      text-align: center;
+    }
+    .speaker-card { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="page-wrap">
+  <nav class="simple-nav" aria-label="Website sections">
+    <a class="brand-link" href="#workshop-logo"><img src="img/BRIDGES27_logo%20text.png" alt="BRIDGES 2027"></a>
+    <a href="#about">About</a>
+    <a href="#focus-areas">Focus Areas</a>
+    <a href="#highlights">Highlights</a>
+    <a href="#venue">Venue</a>
+    <a href="#program">Program</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#fees">Fees</a>
+    <a href="#participants">Apply</a>
+    <a href="#team">Team</a>
+    <a href="#past-editions">Past Editions</a>
+  </nav>
+
+  <header class="masthead" id="workshop-logo">
+    <div class="masthead-inner">
+      <div class="masthead-copy">
+        <div class="label">BRIDGES 2027 · AI Summer School in the South Pacific</div>
+        <div class="title-lockup">
+          <h1>Building a Digital App Ecosystem with Agentic AI Technologies</h1>
+          <div class="logo-frame">
+            <img src="img/bridges_logo27_mark.png" alt="BRIDGES 2027 workshop logo">
+          </div>
+        </div>
+        <h2>Bridging the Divides with Globally Engineered Software</h2>
+        <p>
+          A practical, community-centered summer school connecting Papua New Guinea and the Pacific with
+          software engineering, AI, open source, and emerging technologies.
+        </p>
+        <div class="status-row" aria-label="Event information">
+          <div class="status-item">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"></rect><path d="M8 3v4M16 3v4M4 10h16"></path></svg>
+            </span>
+            <div>
+              <div class="status-label">Dates</div>
+              <div class="status-value">January 9th - 11th, 2027</div>
+            </div>
+          </div>
+          <div class="status-item">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
+            </span>
+            <div>
+              <div class="status-label">Venue</div>
+              <div class="status-value">Loloata Island Resort</div>
+            </div>
+          </div>
+          <div class="status-item">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 8v4l3 2"></path></svg>
+            </span>
+            <div>
+              <div class="status-label">Registration</div>
+              <div class="status-value">Coming soon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="section-card" id="about">
+    <h2>About BRIDGES 2027</h2>
+    <div class="accent-line"></div>
+    <p>
+      BRIDGES 2027 continues the mission of making software engineering more accessible,
+      inclusive, and globally connected in Papua New Guinea and the wider Pacific. The summer
+      school will bring participants together to explore practical software solutions, responsible AI,
+      open-source collaboration, and emerging technologies.
+    </p>
+    <p>
+      Under the theme “<strong>Building a Digital App Ecosystem with Agentic AI Technologies</strong>,”
+      participants will develop and showcase AI-enabled applications, prototypes, and ideas through an
+      open digital hub. The initiative aims to encourage collaboration and local innovation while respecting
+      Papua New Guinea’s cultures, languages, regulations, data sovereignty, and social contexts.
+    </p>
+    <p>
+      BRIDGES 2027 will also connect local talent with wider technical and professional communities,
+      helping make Papua New Guinean innovation more visible nationally and internationally.
+    </p>
+  </div>
+
+  <div class="section-card" id="focus-areas">
+    <h2>Core Focus Areas</h2>
+    <div class="accent-line"></div>
+    <div class="three-col">
+      <div class="focus-card">
+        <div class="focus-heading">
+          <span class="focus-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M15 15l4.5 4.5M8 6.5h5M8 10.5h4"></path></svg>
+          </span>
+          <strong>Research</strong>
+        </div>
+        <p>Explore ideas, receive expert feedback, and discover practical applications of software engineering and AI.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-heading">
+          <span class="focus-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 5.5c2.8 0 5.2.7 8 2.2v11c-2.8-1.5-5.2-2.2-8-2.2z"></path><path d="M20 5.5c-2.8 0-5.2.7-8 2.2v11c2.8-1.5 5.2-2.2 8-2.2z"></path><path d="M12 7.7v11"></path></svg>
+          </span>
+          <strong>Education</strong>
+        </div>
+        <p>Build practical skills in software engineering, agentic AI, GitHub, open source, and emerging technologies.</p>
+      </div>
+      <div class="focus-card">
+        <div class="focus-heading">
+          <span class="focus-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="2.6"></circle><circle cx="6.5" cy="9" r="2.2"></circle><circle cx="17.5" cy="9" r="2.2"></circle><path d="M7.5 17.5c.7-2.7 2.3-4.2 4.5-4.2s3.8 1.5 4.5 4.2"></path><path d="M3.5 18c.4-2.2 1.5-3.5 3-3.5 1 0 1.8.5 2.4 1.4"></path><path d="M20.5 18c-.4-2.2-1.5-3.5-3-3.5-1 0-1.8.5-2.4 1.4"></path></svg>
+          </span>
+          <strong>Community</strong>
+        </div>
+        <p>Connect Pacific participants with researchers, mentors, and global technical communities to collaborate and share ideas.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="highlights">
+    <h2>Event Highlights</h2>
+    <div class="accent-line"></div>
+    <div class="highlight-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"></path><path d="M8 7h6M8 11h8"></path></svg>
+        </div>
+        <strong>Hands-on Learning</strong>
+        <p>Practical workshops and tutorials in software engineering, AI, open source, and emerging technologies.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 8h10M7 12h6"></path><rect x="4" y="4" width="16" height="12" rx="2"></rect><path d="M9 20h6M12 16v4"></path></svg>
+        </div>
+        <strong>Team Projects</strong>
+        <p>Collaborate to design and build AI-enabled applications, prototypes, and solutions.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3l2.2 4.5L19 8.2l-3.5 3.4.8 4.8L12 14.1l-4.3 2.3.8-4.8L5 8.2l4.8-.7z"></path><path d="M8 21h8"></path></svg>
+        </div>
+        <strong>Keynote &amp; Expert Talks</strong>
+        <p>Learn from researchers and experts in software engineering, AI, and emerging technologies.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4c2 2.2 3 4.9 3 8s-1 5.8-3 8M12 4c-2 2.2-3 4.9-3 8s1 5.8 3 8"></path></svg>
+        </div>
+        <strong>Pacific-Centered Innovation</strong>
+        <p>Explore technology that responds to local needs and the social and cultural contexts of Papua New Guinea and the Pacific.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="venue">
+    <h2>Venue</h2>
+    <div class="accent-line"></div>
+    <p class="venue-name">Proposed Venue: <a href="https://www.loloataislandresort.com/">Loloata Island Resort</a></p>
+    <p class="venue-location">📍 Port Moresby, Central Province, Papua New Guinea</p>
+    <p>
+      BRIDGES 2027 is tentatively planned to take place at Loloata Island Resort, located on an island
+      just outside Port Moresby, the capital of Papua New Guinea. Known as the Land of the Unexpected,
+      Papua New Guinea is home to more than 850 languages, rich cultural traditions, and remarkable
+      biodiversity, including the iconic Bird of Paradise and Queen Alexandra’s Birdwing.
+    </p>
+    <p class="venue-notice">Venue confirmation and further information on transportation, accommodation, and travel arrangements will be announced soon.</p>
+  </div>
+
+  <div class="section-card" id="program">
+    <h2>Overview of Program</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">Detailed 2027 schedule coming soon. Draft structure below.</p>
+
+    <div class="program-block">
+      <h3>Day 1 — Welcome and Foundations</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Registration, welcome, and opening remarks</td></tr>
+        <tr><td>Midday</td><td>Keynote talks and introductions</td></tr>
+        <tr><td>Afternoon</td><td>Git, GitHub, software tools, and AI-assisted development</td></tr>
+      </table>
+    </div>
+
+    <div class="program-block">
+      <h3>Day 2 — Learning and Building</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Technical sessions and tutorials</td></tr>
+        <tr><td>Midday</td><td>Team challenge or hackathon work</td></tr>
+        <tr><td>Afternoon</td><td>Mentoring, prototyping, and group feedback</td></tr>
+      </table>
+    </div>
+
+    <div class="program-block">
+      <h3>Day 3 — Presentations and Future Directions</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Team presentations and live feedback</td></tr>
+        <tr><td>Midday</td><td>Awards, certificates, and closing remarks</td></tr>
+        <tr><td>Afternoon</td><td>Future planning discussions</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section-card" id="speakers">
+    <h2>Speakers</h2>
+    <div class="accent-line"></div>
+    <div class="speaker-card">
+      <div class="speaker-photo"><img src="https://staffphoto.smu.edu.sg/s/davidlo/600x400" alt="Prof. David Lo"></div>
+      <div>
+        <div class="speaker-label">Keynote Speaker</div>
+        <h3>Prof. David Lo</h3>
+        <p><em>Vice Provost (Research) &amp; OUB Chair Professor of Computer Science</em><br>
+        <strong>Singapore Management University</strong></p>
+        <p>Professor David Lo is a leading researcher in software engineering and artificial intelligence. His research explores intelligent software engineering, AI-assisted software development, software analytics, and trustworthy software and AI systems. He is also Co-Director of SMU's Centre for Research for Intelligent Software Engineering (RISE).</p>
+        <p><strong>Keynote Title:</strong> To be announced.</p>
+      </div>
+    </div>
+    <p class="speaker-note">Additional speakers will be announced soon.</p>
+  </div>
+
+  <div class="section-card" id="fees">
+    <h2>Tuition Fee</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">2027 fee structure and deadlines to be announced.</p>
+    <table>
+      <tr><th>Category</th><th>Fee</th><th>Deadline</th></tr>
+      <tr><td>Students</td><td>To be announced</td><td>To be announced</td></tr>
+      <tr><td>Early Bird</td><td>To be announced</td><td>To be announced</td></tr>
+      <tr><td>Regular</td><td>To be announced</td><td>To be announced</td></tr>
+    </table>
+  </div>
+
+  <div class="section-card" id="participants">
+    <h2>Call for Participants</h2>
+    <div class="accent-line"></div>
+    <div class="apply-box">
+      <h3>Who can participate?</h3>
+      <p>
+        BRIDGES 2027 welcomes students, researchers, practitioners, and mentors interested in software
+        engineering, AI, emerging technologies, and Pacific-centered innovation. The summer school aims
+        to bring together participants from Papua New Guinea, the wider Pacific, and the international
+        community to learn, collaborate, and exchange ideas.
+      </p>
+      <div class="registration-status">
+        <div class="registration-label">Registration</div>
+        <div class="registration-value">Coming soon</div>
+        <div class="registration-note">Application details, participant requirements, and deadlines will be announced here.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="team">
+    <h2>Meet the Team</h2>
+    <div class="accent-line"></div>
+    <p>BRIDGES 2027 is made possible through collaboration between organizers, researchers, educators, and partners in Papua New Guinea and the wider international software engineering community.</p>
+    <div class="team-notice">The 2027 organizing team and partner information will be announced soon.</div>
+  </div>
+
+  <div class="section-card" id="past-editions">
+    <h2>Past Editions</h2>
+    <div class="accent-line"></div>
+    <ul>
+      <li><a href="https://bridges-png.github.io/2026/">BRIDGES 2026</a></li>
+      <li><a href="https://naist-se.github.io/PNG-BRIDGES">BRIDGES 2023</a></li>
+      <li><a href="https://naist-se.github.io/BRIDGES2019">BRIDGES 2019</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-contact" id="contact">
+    <div class="footer-inner">
+      <div>
+        <h2>Contact</h2>
+        <div class="footer-accent"></div>
+        <p><strong>Questions about BRIDGES 2027?</strong></p>
+        <p>For general enquiries, contact us at <a href="mailto:bridges.png@gmail.com"><strong>bridges.png@gmail.com</strong></a></p>
+      </div>
+      <img class="footer-logo" src="img/bridges_logo27.png" alt="BRIDGES 2027 logo">
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-meta">
+      <span>BRIDGES 2027 · Papua New Guinea</span>
+      <span>© 2027 BRIDGES</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
