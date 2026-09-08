@@ -400,7 +400,7 @@
     <h2>Past Editions</h2>
     <div class="section-mark"></div>
     <ul>
-      <li><a href="./2026/">BRIDGES 2026</a></li>
+      <li><a href="/2026/">BRIDGES 2026</a></li>
       <li><a href="https://naist-se.github.io/PNG-BRIDGES">BRIDGES 2023</a></li>
       <li><a href="https://naist-se.github.io/BRIDGES2019">BRIDGES 2019</a></li>
     </ul>
