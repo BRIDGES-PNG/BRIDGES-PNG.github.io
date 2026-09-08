@@ -184,6 +184,45 @@
     font-style: italic;
   }
 
+  .venue-name {
+    color: var(--navy);
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0 0 0.25rem;
+  }
+
+  .venue-name a {
+    color: var(--navy);
+  }
+
+  .venue-location {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0 0 1rem;
+  }
+
+  .venue-notice {
+    background: #F7FAFC;
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--teal);
+    border-radius: 10px;
+    color: var(--muted);
+    font-style: italic;
+    margin: 1rem 0 0;
+    padding: 0.85rem 1rem;
+  }
+
+  .team-notice {
+    background: #F7FAFC;
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--teal);
+    border-radius: 10px;
+    color: var(--muted);
+    font-style: italic;
+    margin: 1rem 0 0;
+    padding: 0.8rem 1rem;
+  }
+
   .two-col, .three-col {
     display: grid;
     gap: 1rem;
@@ -203,12 +242,72 @@
     color: var(--ocean);
   }
 
+  .highlight-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .highlight-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    padding: 0.9rem 1rem;
+  }
+
+  .highlight-icon {
+    color: var(--ocean);
+    height: 28px;
+    margin-bottom: 0.65rem;
+    width: 28px;
+  }
+
+  .highlight-icon svg {
+    display: block;
+    fill: none;
+    height: 100%;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 100%;
+  }
+
+  .highlight-card strong {
+    color: var(--ocean);
+  }
+
+  .highlight-card p {
+    color: var(--muted);
+    margin-bottom: 0;
+  }
+
+
   .speaker-headshot {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
     display: block;
     margin-bottom: 0.9rem;
+  }
+
+  .speaker-label {
+    color: var(--ocean);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .speaker-note {
+    color: var(--muted);
+    font-style: italic;
+    margin: 1rem 0 0;
   }
 
   .program-block {
@@ -236,28 +335,129 @@
 
   .apply-box {
     background: var(--paper);
+    border-radius: 10px;
+    padding: 0 0 0.9rem;
+  }
+
+  .apply-box h3 {
+    color: var(--navy);
+    margin: 0 0 0.45rem;
+  }
+
+  .apply-box p {
+    margin: 0;
+  }
+
+  .registration-status {
     border: 1px solid var(--line);
     border-left: 6px solid var(--gold);
     border-radius: 10px;
-    padding: 1rem;
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .registration-label {
+    color: var(--ocean);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  .registration-value {
+    color: var(--navy);
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-top: 0.25rem;
+  }
+
+  .registration-note {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
   }
 
   .footer-contact {
-    background: var(--navy);
-    color: white;
+    background: #073B4C;
+    color: #FFFFFF;
+    border: 1px solid var(--line);
     border-radius: 12px;
-    padding: 1.3rem;
+    padding: 0.95rem 1.3rem;
     margin: 1.5rem 0;
   }
 
-  .footer-contact h2,
+  .footer-contact h2 {
+    color: #FFFFFF;
+    margin: 0 0 0.35rem;
+  }
+
+  .footer-accent {
+    width: 64px;
+    height: 3px;
+    border-radius: 99px;
+    background: #26A69A;
+    margin: 0 0 0.85rem;
+  }
+
   .footer-contact a {
-    color: white;
+    color: #FFFFFF;
+    text-decoration-color: #26A69A;
+  }
+
+  .footer-contact p {
+    margin: 0 0 0.25rem;
+  }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .footer-logo {
+    display: block;
+    max-width: 190px;
+    width: 100%;
+    height: auto;
+    flex: 0 0 190px;
+  }
+
+  .footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(223, 233, 236, 0.35);
+    margin: 0.95rem 0 0.65rem;
+  }
+
+  .footer-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #DFE9EC;
+    font-size: 0.85rem;
   }
 
   @media (max-width: 650px) {
     .masthead { padding: 1.5rem; }
     .masthead-inner { grid-template-columns: 1fr; }
+    .highlight-grid { grid-template-columns: 1fr; }
+    .footer-inner {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .footer-logo {
+      max-width: 165px;
+      flex-basis: auto;
+    }
+    .footer-accent { margin-left: auto; margin-right: auto; }
+    .footer-meta {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.25rem;
+      text-align: center;
+    }
   }
 </style>
 
@@ -321,13 +521,35 @@
     <div class="label">What to expect</div>
     <h2>Event Highlights</h2>
     <div class="section-mark"></div>
-    <div class="three-col">
-      <div class="plain-card"><strong>Research</strong><p>Gain feedback on ideas and connect with researchers and mentors.</p></div>
-      <div class="plain-card"><strong>Education</strong><p>Learn practical skills in software engineering, AI tools, GitHub, and open source.</p></div>
-      <div class="plain-card"><strong>Community</strong><p>Build connections between Pacific communities and global software engineering networks.</p></div>
-      <div class="plain-card"><strong>Hackathon</strong><p class="placeholder">Team challenge details coming soon.</p></div>
-      <div class="plain-card"><strong>Keynotes</strong><p class="placeholder">Speaker lineup coming soon.</p></div>
-      <div class="plain-card"><strong>Certificates</strong><p>Participants will receive a certificate of attendance.</p></div>
+    <div class="highlight-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"></path><path d="M8 7h6M8 11h8"></path></svg>
+        </div>
+        <strong>Hands-on Learning</strong>
+        <p>Practical workshops and tutorials in software engineering, AI, open source, and emerging technologies.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 8h10M7 12h6"></path><rect x="4" y="4" width="16" height="12" rx="2"></rect><path d="M9 20h6M12 16v4"></path></svg>
+        </div>
+        <strong>Team Projects</strong>
+        <p>Collaborate to design and build AI-enabled applications, prototypes, and solutions.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3l2.2 4.5L19 8.2l-3.5 3.4.8 4.8L12 14.1l-4.3 2.3.8-4.8L5 8.2l4.8-.7z"></path><path d="M8 21h8"></path></svg>
+        </div>
+        <strong>Keynote &amp; Expert Talks</strong>
+        <p>Learn from researchers and experts in software engineering, AI, and emerging technologies.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4c2 2.2 3 4.9 3 8s-1 5.8-3 8M12 4c-2 2.2-3 4.9-3 8s1 5.8 3 8"></path></svg>
+        </div>
+        <strong>Pacific-Centered Innovation</strong>
+        <p>Explore technology that responds to local needs and the social and cultural contexts of Papua New Guinea and the Pacific.</p>
+      </div>
     </div>
   </section>
 
@@ -335,8 +557,15 @@
     <div class="label">Location</div>
     <h2>Venue</h2>
     <div class="section-mark"></div>
-    <p>BRIDGES 2027 is tentatively planned for <strong>January 9th - 11th, 2027</strong> at <strong>Loloata Island Resort</strong>, Port Moresby, Central Province, Papua New Guinea.</p>
-    <p class="placeholder">Venue description, transport schedule, accommodation guidance, and travel information coming soon.</p>
+    <p class="venue-name">Proposed Venue: <a href="https://www.loloataislandresort.com/">Loloata Island Resort</a></p>
+    <p class="venue-location">📍 Port Moresby, Central Province, Papua New Guinea</p>
+    <p>
+      BRIDGES 2027 is tentatively planned to take place at Loloata Island Resort, located on an island
+      just outside Port Moresby, the capital of Papua New Guinea. Known as the Land of the Unexpected,
+      Papua New Guinea is home to more than 850 languages, rich cultural traditions, and remarkable
+      biodiversity, including the iconic Bird of Paradise and Queen Alexandra’s Birdwing.
+    </p>
+    <p class="venue-notice">Venue confirmation and further information on transportation, accommodation, and travel arrangements will be announced soon.</p>
   </section>
 
   <section id="program">
@@ -378,20 +607,20 @@
 
   <section id="speakers">
     <div class="label">People</div>
-    <h2>Speakers and Abstracts</h2>
+    <h2>Speakers</h2>
     <div class="section-mark"></div>
-    <p>Keynote speaker information is listed below. Additional speaker names, photos, abstracts, and slides will be added here.</p>
     <div class="two-col">
       <div class="plain-card">
         <img class="speaker-headshot" src="https://staffphoto.smu.edu.sg/s/davidlo/600x400" alt="Prof. David Lo">
+        <div class="speaker-label">Keynote Speaker</div>
         <strong>Prof. David Lo</strong>
         <p><em>Vice Provost (Research) &amp; OUB Chair Professor of Computer Science</em><br>
         <strong>Singapore Management University</strong></p>
         <p>Professor David Lo is a leading researcher in software engineering and artificial intelligence. His research explores intelligent software engineering, AI-assisted software development, software analytics, and trustworthy software and AI systems. He is also Co-Director of SMU's Centre for Research for Intelligent Software Engineering (RISE).</p>
         <p><strong>Keynote Title:</strong> To be announced.</p>
       </div>
-      <div class="plain-card"><strong>Additional Speakers</strong><p>To be announced.</p></div>
     </div>
+    <p class="speaker-note">Additional speakers will be announced soon.</p>
   </section>
 
   <section id="fees">
@@ -412,11 +641,18 @@
     <h2>Call for Participants</h2>
     <div class="section-mark"></div>
     <div class="apply-box">
+      <h3>Who can participate?</h3>
       <p>
-        BRIDGES 2027 will welcome students, researchers, practitioners, mentors, and international participants
-        interested in software engineering, AI, emerging technologies, and Pacific-centered innovation.
+        BRIDGES 2027 welcomes students, researchers, practitioners, and mentors interested in software
+        engineering, AI, emerging technologies, and Pacific-centered innovation. The summer school aims
+        to bring together participants from Papua New Guinea, the wider Pacific, and the international
+        community to learn, collaborate, and exchange ideas.
       </p>
-      <p class="placeholder">Application instructions, deadlines, registration form, and participant requirements coming soon.</p>
+      <div class="registration-status">
+        <div class="registration-label">Registration</div>
+        <div class="registration-value">Coming soon</div>
+        <div class="registration-note">Application details, participant requirements, and deadlines will be announced here.</div>
+      </div>
     </div>
   </section>
 
@@ -424,11 +660,8 @@
     <div class="label">Organizers</div>
     <h2>Meet the Team</h2>
     <div class="section-mark"></div>
-    <p class="placeholder">2027 organizing team details coming soon.</p>
-    <ul>
-      <li>Organizer names and affiliations to be added.</li>
-      <li>Local partners and supporting institutions to be added.</li>
-    </ul>
+    <p>BRIDGES 2027 is made possible through collaboration between organizers, researchers, educators, and partners in Papua New Guinea and the wider international software engineering community.</p>
+    <div class="team-notice">The 2027 organizing team and partner information will be announced soon.</div>
   </section>
 
   <section id="past-editions">
@@ -443,7 +676,19 @@
   </section>
 
   <section class="footer-contact" id="contact">
-    <h2>Contact</h2>
-    <p>For more information, email: <strong>bridges.png@gmail.com</strong></p>
+    <div class="footer-inner">
+      <div>
+        <h2>Contact</h2>
+        <div class="footer-accent"></div>
+        <p><strong>Questions about BRIDGES 2027?</strong></p>
+        <p>For general enquiries, contact us at <a href="mailto:bridges.png@gmail.com"><strong>bridges.png@gmail.com</strong></a></p>
+      </div>
+      <img class="footer-logo" src="img/bridges_logo27.png" alt="BRIDGES 2027 logo">
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-meta">
+      <span>BRIDGES 2027 · Papua New Guinea</span>
+      <span>© 2027 BRIDGES</span>
+    </div>
   </section>
 </div>
