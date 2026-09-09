@@ -89,24 +89,20 @@ a{color:#0F6F86;}
   .title-lockup {
     display: grid;
     grid-template-columns: minmax(0, 55fr) minmax(0, 45fr);
-    align-items: start;
+    align-items: center;
     gap: clamp(2.5rem, 4vw, 3.75rem);
-    margin: 3rem 0 0;
-  }
-
-  .hero-text {
-    max-width: 900px;
+    margin: 0.6rem 0 0;
   }
 
   .logo-frame {
     display: grid;
     place-items: center;
     margin-left: 0;
-    transform: translateY(-42px);
+    transform: translateY(-12px);
   }
 
   .logo-frame img {
-    max-width: 385px;
+    max-width: 340px;
     width: 100%;
     height: auto;
     display: block;
@@ -134,7 +130,7 @@ a{color:#0F6F86;}
   .masthead h2 {
     color: var(--muted);
     font-weight: 600;
-    margin: 3rem 0 0;
+    margin: 0 0 0.9rem;
     font-size: clamp(1.05rem, 1.55vw, 1.3rem);
     line-height: 1.35;
   }
@@ -152,7 +148,7 @@ a{color:#0F6F86;}
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0;
-    margin-top: 1.7rem;
+    margin-top: 0;
     max-width: 900px;
   }
 
@@ -203,7 +199,7 @@ a{color:#0F6F86;}
     font-size: 0.98rem;
     font-weight: 700;
     line-height: 1.25;
-    margin-top: 0.15rem;
+    margin-top: 0.25rem;
   }
 
   .section-card {
@@ -569,16 +565,16 @@ a{color:#0F6F86;}
     .title-lockup {
       grid-template-columns: 1fr;
       gap: 1.25rem;
-      margin-top: 2rem;
+      margin-top: 0.6rem;
     }
     .logo-frame {
       place-items: start;
       transform: none;
     }
-    .logo-frame img { max-width: 210px; }
-    .masthead h2 { margin-top: 2rem; }
+    .logo-frame img { max-width: 185px; }
+    .masthead h2 { margin-top: 0; }
     .masthead p { margin-bottom: 1.5rem; }
-    .status-row { grid-template-columns: 1fr; gap: 0.9rem; margin-top: 1.5rem; }
+    .status-row { grid-template-columns: 1fr; gap: 0.9rem; }
     .status-item { padding: 0; }
     .status-item + .status-item {
       border-left: 0;
@@ -609,12 +605,14 @@ a{color:#0F6F86;}
   <nav class="simple-nav" aria-label="Website sections">
     <a class="brand-link" href="#workshop-logo"><img src="img/BRIDGES27_logo%20text.png" alt="BRIDGES 2027"></a>
     <a href="#about">About</a>
-    <a href="#focus-areas">Focus Areas</a>
+    <a href="#highlights">Highlights</a>
     <a href="#venue">Venue</a>
     <a href="#program">Program</a>
-    <a href="#participants">Registration</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#fees">Fees</a>
+    <a href="#participants">Apply</a>
     <a href="#team">Team</a>
-    <a href="#past-editions">Previous BRIDGES</a>
+    <a href="#past-editions">Past Editions</a>
   </nav>
 
   <header class="masthead" id="workshop-logo">
@@ -622,41 +620,43 @@ a{color:#0F6F86;}
       <div class="masthead-copy">
         <div class="label">BRIDGES 2027 · AI Summer School in the South Pacific</div>
         <div class="title-lockup">
-          <div class="hero-text">
-            <h1>Building a Digital App Ecosystem with Agentic AI Technologies</h1>
-            <h2>Bridging the Divides with Globally Engineered Software</h2>
-            <div class="status-row" aria-label="Event information">
-              <div class="status-item">
-                <span class="status-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"></rect><path d="M8 3v4M16 3v4M4 10h16"></path></svg>
-                </span>
-                <div>
-                  <div class="status-label">Dates</div>
-                  <div class="status-value">January 9–11, 2027</div>
-                </div>
-              </div>
-              <div class="status-item">
-                <span class="status-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
-                </span>
-                <div>
-                  <div class="status-label">Venue</div>
-                  <div class="status-value">Loloata Island Resort</div>
-                </div>
-              </div>
-              <div class="status-item">
-                <span class="status-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 8v4l3 2"></path></svg>
-                </span>
-                <div>
-                  <div class="status-label">Registration</div>
-                  <div class="status-value">Coming soon</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h1>Building a Digital App Ecosystem with Agentic AI Technologies</h1>
           <div class="logo-frame">
             <img src="img/bridges_logo27_mark.png" alt="BRIDGES 2027 workshop logo">
+          </div>
+        </div>
+        <h2>Bridging the Divides with Globally Engineered Software</h2>
+        <p>
+          A 3-day summer school in Papua New Guinea on practical software solutions,
+          software engineering, AI, and open source tools.
+        </p>
+        <div class="status-row" aria-label="Event information">
+          <div class="status-item">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"></rect><path d="M8 3v4M16 3v4M4 10h16"></path></svg>
+            </span>
+            <div>
+              <div class="status-label">Dates</div>
+              <div class="status-value">January 9th - 11th, 2027</div>
+            </div>
+          </div>
+          <div class="status-item">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
+            </span>
+            <div>
+              <div class="status-label">Venue</div>
+              <div class="status-value">Loloata Island Resort</div>
+            </div>
+          </div>
+          <div class="status-item">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 8v4l3 2"></path></svg>
+            </span>
+            <div>
+              <div class="status-label">Registration</div>
+              <div class="status-value">Coming soon</div>
+            </div>
           </div>
         </div>
       </div>
@@ -671,38 +671,44 @@ a{color:#0F6F86;}
       region of the world, while advancing the goal of making software engineering universal—accessible
       to anyone, anywhere, without technical, cultural, or educational barriers.
     </p>
+    <p>
+      With the rise of AI technologies in Software Engineering, this school demonstrates how communities
+      like Papua New Guinea can use these tools to foster equality and participation within their local
+      software ecosystems.
+    </p>
   </div>
 
-  <div class="section-card" id="focus-areas">
-    <h2>Core Focus Areas</h2>
+  <div class="section-card" id="highlights">
+    <h2>Event Highlights</h2>
     <div class="accent-line"></div>
-    <div class="three-col">
-      <div class="focus-card">
-        <div class="focus-heading">
-          <span class="focus-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M15 15l4.5 4.5M8 6.5h5M8 10.5h4"></path></svg>
-          </span>
-          <strong>Research</strong>
+    <div class="highlight-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"></path><path d="M8 7h6M8 11h8"></path></svg>
         </div>
-        <p>Gain early feedback on research ideas and seek potential collaborators.</p>
+        <strong>Hands-on Learning</strong>
+        <p>Practical sessions on software, AI, GitHub, and open source tools.</p>
       </div>
-      <div class="focus-card">
-        <div class="focus-heading">
-          <span class="focus-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M4 5.5c2.8 0 5.2.7 8 2.2v11c-2.8-1.5-5.2-2.2-8-2.2z"></path><path d="M20 5.5c-2.8 0-5.2.7-8 2.2v11c2.8-1.5 5.2-2.2 8-2.2z"></path><path d="M12 7.7v11"></path></svg>
-          </span>
-          <strong>Education</strong>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 8h10M7 12h6"></path><rect x="4" y="4" width="16" height="12" rx="2"></rect><path d="M9 20h6M12 16v4"></path></svg>
         </div>
-        <p>Learn about current trends in software engineering and emerging technologies.</p>
+        <strong>Team Projects</strong>
+        <p>Work in teams to build simple prototypes and share results.</p>
       </div>
-      <div class="focus-card">
-        <div class="focus-heading">
-          <span class="focus-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="2.6"></circle><circle cx="6.5" cy="9" r="2.2"></circle><circle cx="17.5" cy="9" r="2.2"></circle><path d="M7.5 17.5c.7-2.7 2.3-4.2 4.5-4.2s3.8 1.5 4.5 4.2"></path><path d="M3.5 18c.4-2.2 1.5-3.5 3-3.5 1 0 1.8.5 2.4 1.4"></path><path d="M20.5 18c-.4-2.2-1.5-3.5-3-3.5-1 0-1.8.5-2.4 1.4"></path></svg>
-          </span>
-          <strong>Promotion of Young Researchers</strong>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3l2.2 4.5L19 8.2l-3.5 3.4.8 4.8L12 14.1l-4.3 2.3.8-4.8L5 8.2l4.8-.7z"></path><path d="M8 21h8"></path></svg>
         </div>
-        <p>Support young researchers in the early stages of their careers.</p>
+        <strong>Talks</strong>
+        <p>Learn from researchers and practitioners in software engineering and AI.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4c2 2.2 3 4.9 3 8s-1 5.8-3 8M12 4c-2 2.2-3 4.9-3 8s1 5.8 3 8"></path></svg>
+        </div>
+        <strong>Local Context</strong>
+        <p>Explore software solutions for Papua New Guinea and the wider Pacific.</p>
       </div>
     </div>
   </div>
@@ -713,7 +719,9 @@ a{color:#0F6F86;}
     <p class="venue-name">Proposed Venue: <a href="https://www.loloataislandresort.com/">Loloata Island Resort</a></p>
     <p class="venue-location">📍 Port Moresby, Central Province, Papua New Guinea</p>
     <p>
-      BRIDGES 2027 will take place at Loloata Island Resort, located on an island off the coast of Port Moresby, the capital of Papua New Guinea. Known as the Land of the Unexpected, Papua New Guinea is home to more than 850 languages and has a diverse culture, flora and fauna.
+      BRIDGES 2027 is tentatively planned to take place at Loloata Island Resort, located on an island
+      off the coast of Port Moresby, the capital of Papua New Guinea. Known as the Land of the Unexpected,
+      Papua New Guinea is home to more than 850 languages and has diverse culture, flora, and fauna.
     </p>
     <p class="venue-notice">Venue confirmation and further information on transportation, accommodation, and travel arrangements will be announced soon.</p>
   </div>
@@ -721,7 +729,37 @@ a{color:#0F6F86;}
   <div class="section-card" id="program">
     <h2>Overview of Program</h2>
     <div class="accent-line"></div>
-    <p class="placeholder">Detailed BRIDGES 2027 program coming soon.</p>
+    <p class="placeholder">Detailed 2027 schedule coming soon. Draft structure below.</p>
+
+    <div class="program-block">
+      <h3>Day 1 — Welcome and Foundations</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Registration, welcome, and opening remarks</td></tr>
+        <tr><td>Midday</td><td>Talks and introductions</td></tr>
+        <tr><td>Afternoon</td><td>Git, GitHub, software tools, and AI-assisted development</td></tr>
+      </table>
+    </div>
+
+    <div class="program-block">
+      <h3>Day 2 — Learning and Building</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Technical sessions and tutorials</td></tr>
+        <tr><td>Midday</td><td>Team challenge or hackathon work</td></tr>
+        <tr><td>Afternoon</td><td>Mentoring, prototyping, and group feedback</td></tr>
+      </table>
+    </div>
+
+    <div class="program-block">
+      <h3>Day 3 — Presentations and Future Directions</h3>
+      <table>
+        <tr><th>Session</th><th>Details</th></tr>
+        <tr><td>Morning</td><td>Team presentations and live feedback</td></tr>
+        <tr><td>Midday</td><td>Awards, certificates, and closing remarks</td></tr>
+        <tr><td>Afternoon</td><td>Future planning discussions</td></tr>
+      </table>
+    </div>
   </div>
 
   <div class="section-card" id="speakers">
@@ -733,17 +771,29 @@ a{color:#0F6F86;}
   <div class="section-card" id="fees">
     <h2>Tuition Fee</h2>
     <div class="accent-line"></div>
-    <p>Information on tuition fees and registration deadlines will be announced soon.</p>
+    <p class="placeholder">2027 fee structure and deadlines to be announced.</p>
+    <table>
+      <tr><th>Category</th><th>Fee</th><th>Deadline</th></tr>
+      <tr><td>Students</td><td>To be announced</td><td>To be announced</td></tr>
+      <tr><td>Early Bird</td><td>To be announced</td><td>To be announced</td></tr>
+      <tr><td>Regular</td><td>To be announced</td><td>To be announced</td></tr>
+    </table>
   </div>
 
   <div class="section-card" id="participants">
-    <h2>Registration</h2>
+    <h2>Call for Participants</h2>
     <div class="accent-line"></div>
     <div class="apply-box">
+      <h3>Who can participate?</h3>
+      <p>
+        The BRIDGES Summer School welcomes students, researchers, practitioners, and mentors interested
+        in software engineering, AI, and open source tools. International participants may also join as
+        mentors or provide feedback.
+      </p>
       <div class="registration-status">
         <div class="registration-label">Registration</div>
         <div class="registration-value">Coming soon</div>
-        <div class="registration-note">Application details and deadlines will be announced here.</div>
+        <div class="registration-note">Application details, participant requirements, and deadlines will be announced here.</div>
       </div>
     </div>
   </div>
@@ -751,7 +801,8 @@ a{color:#0F6F86;}
   <div class="section-card" id="team">
     <h2>Meet the Team</h2>
     <div class="accent-line"></div>
-    <p>The BRIDGES 2027 organizing team will be announced soon.</p>
+    <p>BRIDGES 2027 is organized with partners in Papua New Guinea and the international software engineering community.</p>
+    <div class="team-notice">The 2027 organizing team and partner information will be announced soon.</div>
   </div>
 
   <div class="section-card" id="past-editions">
