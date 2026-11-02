@@ -429,39 +429,10 @@ a{color:#0F6F86;}
   }
 
   .speaker-card {
-    display: grid;
-    grid-template-columns: 150px minmax(0, 1fr);
-    gap: 1.25rem;
-    align-items: start;
     background: var(--paper);
     border: 1px solid var(--line);
     border-radius: 14px;
     padding: 1rem;
-  }
-
-  .speaker-photo {
-    width: 150px;
-    aspect-ratio: 1;
-    border: 2px dashed var(--line);
-    border-radius: 12px;
-    display: grid;
-    place-items: center;
-    background: var(--soft-blue);
-    color: var(--muted);
-    padding: 0.75rem;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 0.85rem;
-    font-weight: 700;
-    line-height: 1.3;
-    overflow: hidden;
-  }
-
-  .speaker-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
   }
 
   .speaker-card h3 {
@@ -644,7 +615,6 @@ a{color:#0F6F86;}
       gap: 0.25rem;
       text-align: center;
     }
-    .speaker-card { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -774,7 +744,6 @@ a{color:#0F6F86;}
     <h3 class="speaker-group-heading">Keynote Speaker</h3>
     <div class="speaker-list">
       <article class="speaker-card">
-        <div class="speaker-photo" role="img" aria-label="Photo placeholder for Dr. Marc Cheong">Dr. Marc Cheong</div>
         <div>
           <h3>Dr. Marc Cheong</h3>
           <p class="speaker-position">Senior Lecturer in Information Systems (Digital Ethics), University of Melbourne, Australia</p>
@@ -787,7 +756,6 @@ a{color:#0F6F86;}
     <h3 class="speaker-group-heading">International Guests</h3>
     <div class="speaker-list">
       <article class="speaker-card">
-        <div class="speaker-photo" role="img" aria-label="Photo placeholder for Prof. Yutaro Kashiwa">Prof. Yutaro Kashiwa</div>
         <div>
           <h3><a href="https://sdlab.naist.jp/en/authors/yutaro-kashiwa/">Prof. Yutaro Kashiwa</a></h3>
           <p class="speaker-position">Associate Professor, Software Design and Analysis Laboratory, Nara Institute of Science and Technology (NAIST), Japan</p>
@@ -796,7 +764,6 @@ a{color:#0F6F86;}
       </article>
 
       <article class="speaker-card">
-        <div class="speaker-photo" role="img" aria-label="Photo placeholder for Prof. Igor Steinmacher">Prof. Igor Steinmacher</div>
         <div>
           <h3>Prof. Igor Steinmacher</h3>
           <p class="speaker-position">Associate Professor and Associate Director for Graduate Programs, Northern Arizona University, USA</p>
@@ -805,7 +772,6 @@ a{color:#0F6F86;}
       </article>
 
       <article class="speaker-card">
-        <div class="speaker-photo" role="img" aria-label="Photo placeholder for Prof. Yoshiki Higo">Prof. Yoshiki Higo</div>
         <div>
           <h3><a href="https://sites.google.com/view/yhigo/home">Prof. Yoshiki Higo</a></h3>
           <p class="speaker-position">Professor, Software Engineering Laboratory, Graduate School of Information Science and Technology, The University of Osaka, Japan</p>
@@ -817,7 +783,6 @@ a{color:#0F6F86;}
     <h3 class="speaker-group-heading">Organisers</h3>
     <div class="speaker-list">
       <article class="speaker-card">
-        <div class="speaker-photo" role="img" aria-label="Photo placeholder for Prof. Raula Gaikovina Kula">Prof. Raula Gaikovina Kula</div>
         <div>
           <h3><a href="https://raux.github.io/about/">Prof. Raula Gaikovina Kula</a></h3>
           <p class="speaker-position">Professor, Graduate School of Information Science and Technology, The University of Osaka, Japan</p>
@@ -826,7 +791,6 @@ a{color:#0F6F86;}
       </article>
 
       <article class="speaker-card">
-        <div class="speaker-photo" role="img" aria-label="Photo placeholder for Prof. Youmei Fan">Prof. Youmei Fan</div>
         <div>
           <h3><a href="https://fanyoumei.github.io/">Prof. Youmei Fan</a></h3>
           <p class="speaker-position">Assistant Professor, Software Engineering Laboratory, Nara Institute of Science and Technology (NAIST), Japan</p>
