@@ -414,56 +414,44 @@ a{color:#0F6F86;}
     color: var(--navy);
   }
 
-  .speaker-card {
+  .speaker-group-heading {
+    color: var(--navy);
+    margin: 1.6rem 0 0.75rem;
+  }
+
+  .speaker-group-heading:first-of-type {
+    margin-top: 0.5rem;
+  }
+
+  .speaker-list {
     display: grid;
-    grid-template-columns: 220px minmax(0, 1fr);
     gap: 1rem;
-    align-items: start;
+  }
+
+  .speaker-card {
     background: var(--paper);
     border: 1px solid var(--line);
     border-radius: 14px;
     padding: 1rem;
   }
 
-  .speaker-photo {
-    min-height: 220px;
-    border: 2px dashed var(--line);
-    border-radius: 12px;
-    display: grid;
-    place-items: center;
-    background: var(--soft-blue);
-    color: var(--muted);
-    text-align: center;
-    font-size: 0.9rem;
-    overflow: hidden;
-  }
-
-  .speaker-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
   .speaker-card h3 {
-    margin-top: 0;
+    margin: 0 0 0.25rem;
     color: var(--navy);
   }
 
-  .speaker-label {
-    color: var(--ocean);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    line-height: 1.1;
-    margin-bottom: 0.4rem;
-    text-transform: uppercase;
+  .speaker-position {
+    color: var(--navy);
+    font-weight: 600;
+    margin: 0 0 0.65rem;
   }
 
-  .speaker-note {
-    color: var(--muted);
-    font-style: italic;
-    margin: 1rem 0 0;
+  .speaker-keynote-title {
+    margin: 0 0 0.65rem;
+  }
+
+  .speaker-bio {
+    margin: 0;
   }
 
   .apply-box {
@@ -627,7 +615,6 @@ a{color:#0F6F86;}
       gap: 0.25rem;
       text-align: center;
     }
-    .speaker-card { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -736,12 +723,12 @@ a{color:#0F6F86;}
   <div class="section-card" id="venue">
     <h2>Venue</h2>
     <div class="accent-line"></div>
-    <p class="venue-name">Proposed Venue: <a href="https://www.loloataislandresort.com/">Loloata Island Resort</a></p>
+    <p class="venue-name">Venue: <a href="https://www.loloataislandresort.com/">Loloata Island Resort</a></p>
     <p class="venue-location">📍 Port Moresby, Central Province, Papua New Guinea</p>
     <p>
-      BRIDGES 2027 is tentatively planned to take place at Loloata Resort, which is located on an island off the coast of Port Moresby, capital of Pacific nation, Papua New Guinea (PNG). Known as the land of the unexpected, locals speak over 850 languages and have a diverse culture, flora and fauna (like the Bird of Paradise and the world’s largest butterfly, the Queen Alexandra Birdwing), making PNG one of the last untouched locations on the planet.
+      BRIDGES 2027 will take place at Loloata Resort, which is located on an island off the coast of Port Moresby, capital of Pacific nation, Papua New Guinea (PNG). Known as the land of the unexpected, locals speak over 850 languages and have a diverse culture, flora and fauna (like the Bird of Paradise and the world’s largest butterfly, the Queen Alexandra Birdwing), making PNG one of the last untouched locations on the planet.
     </p>
-    <p class="venue-notice">Venue confirmation and further information on transportation, accommodation, and travel arrangements will be announced soon.</p>
+    <p class="venue-notice">Further information on transportation, accommodation, and travel arrangements will be announced soon.</p>
   </div>
 
   <div class="section-card" id="program">
@@ -751,9 +738,66 @@ a{color:#0F6F86;}
   </div>
 
   <div class="section-card" id="speakers">
-    <h2>Speakers</h2>
+    <h2>Speakers and Visitors</h2>
     <div class="accent-line"></div>
-    <p class="speaker-note">Speakers will be announced soon.</p>
+
+    <h3 class="speaker-group-heading">Keynote Speaker</h3>
+    <div class="speaker-list">
+      <article class="speaker-card">
+        <div>
+          <h3>Dr. Marc Cheong</h3>
+          <p class="speaker-position">Senior Lecturer in Information Systems (Digital Ethics), University of Melbourne, Australia</p>
+          <p class="speaker-keynote-title">Keynote title: [KEYNOTE TITLE]</p>
+          <p class="speaker-bio">Marc Cheong is a Senior Lecturer in Information Systems (Digital Ethics) and Deputy Director of the Centre for AI and Digital Ethics (CAIDE) at the University of Melbourne. His research sits where philosophy meets technology, especially the ethics of social media and the sociotechnical side of how software is built and deployed. His recent work with Christoph Treude examines how developers describe the burden of AI-assisted software development. He co-authored the textbook "Transition to Digital Ethics: A Primer from Philosophy to Practice" (CRC Press), and his work has appeared in The Conversation, ABC, The Age and The New York Times. He holds a PhD from Monash University and is an honorary Senior Fellow at the Burnet Institute, working on social media and public health.</p>
+        </div>
+      </article>
+    </div>
+
+    <h3 class="speaker-group-heading">International Guests</h3>
+    <div class="speaker-list">
+      <article class="speaker-card">
+        <div>
+          <h3><a href="https://sdlab.naist.jp/en/authors/yutaro-kashiwa/">Prof. Yutaro Kashiwa</a></h3>
+          <p class="speaker-position">Associate Professor, Software Design and Analysis Laboratory, Nara Institute of Science and Technology (NAIST), Japan</p>
+          <p class="speaker-bio">Yutaro Kashiwa is an Associate Professor at NAIST, a post he has held since April 2025. He works in empirical software engineering and mining software repositories, using data from testing, continuous integration and DevOps to improve software quality, find bugs, manage technical debt and support refactoring. More recently he has studied AI coding agents, co-authoring an empirical study of agentic refactoring and a research roadmap for agentic software engineering. Before academia he spent two years as a software developer at Hitachi, then earned his PhD from Wakayama University in 2020 as a JSPS Research Fellow. He did postdoctoral work at Kyushu University on the SENSOR refactoring project and has held visiting posts at Polytechnique Montréal, Università della Svizzera italiana and Radboud University. He leads a JST PRESTO project on anomaly detection in software behaviour and was named a NAIST President's Fellow in 2024.</p>
+        </div>
+      </article>
+
+      <article class="speaker-card">
+        <div>
+          <h3>Prof. Igor Steinmacher</h3>
+          <p class="speaker-position">Associate Professor and Associate Director for Graduate Programs, Northern Arizona University, USA</p>
+          <p class="speaker-bio">Igor Steinmacher is an Associate Professor and Associate Director for Graduate Programs at Northern Arizona University, where he is part of the RESHAPE Lab. His research brings together software engineering and computer-supported cooperative work, with a focus on how newcomers join and stay in open source communities. His wider interests include human aspects of software engineering, empirical methods and mining software repositories. He received his PhD in Computer Science from the University of São Paulo in 2015 and was a visiting scholar at the University of California, Irvine. He regularly serves on program committees for leading venues, including FSE 2027.</p>
+        </div>
+      </article>
+
+      <article class="speaker-card">
+        <div>
+          <h3><a href="https://sites.google.com/view/yhigo/home">Prof. Yoshiki Higo</a></h3>
+          <p class="speaker-position">Professor, Software Engineering Laboratory, Graduate School of Information Science and Technology, The University of Osaka, Japan</p>
+          <p class="speaker-bio">Yoshiki Higo is a Professor in the Software Engineering Laboratory at The University of Osaka. His research centres on program source code analysis, aiming to find and fix problems in code systematically and at lower cost. He is widely known for his work on code clones, alongside software repository mining, refactoring support, software metrics and automated program repair; recent work applies large language models to code clone detection. He received his master's and PhD degrees in information science and technology from Osaka University in 2004 and 2006. His recent recognitions include the MSR 2026 Distinguished Mining Challenge Paper Award and an APSEC 2023 Distinguished Paper Award.</p>
+        </div>
+      </article>
+    </div>
+
+    <h3 class="speaker-group-heading">Organisers</h3>
+    <div class="speaker-list">
+      <article class="speaker-card">
+        <div>
+          <h3><a href="https://raux.github.io/about/">Prof. Raula Gaikovina Kula</a></h3>
+          <p class="speaker-position">Professor, Graduate School of Information Science and Technology, The University of Osaka, Japan</p>
+          <p class="speaker-bio">Raula Gaikovina Kula is a Professor at the Graduate School of Information Science and Technology and a designated professor at the Institute for Advanced Co-Creation Studies, The University of Osaka. He is also an Affiliate Professor at NAIST. His research treats software as an ecosystem: he studies how library ecosystems such as npm, PyPI and Maven evolve, sustain themselves and stay secure, and what role AI now plays in them. He also studies code proficiency and human–AI interaction, including how developers' natural-language proficiency shapes the code generative AI produces. He received his PhD from NAIST in 2013, worked at Osaka University until 2016, then spent 2017–2024 at NAIST, rising to Associate Professor, before returning to Osaka as Professor in October 2024. He has published more than 150 papers and serves on editorial and steering committees in software engineering.</p>
+        </div>
+      </article>
+
+      <article class="speaker-card">
+        <div>
+          <h3><a href="https://fanyoumei.github.io/">Prof. Youmei Fan</a></h3>
+          <p class="speaker-position">Assistant Professor, Software Engineering Laboratory, Nara Institute of Science and Technology (NAIST), Japan</p>
+          <p class="speaker-bio">Youmei Fan is an Assistant Professor in the Software Engineering Laboratory at NAIST, a role she began in April 2025 after completing her graduate studies there. Her research is in empirical software engineering with a focus on open source ecosystems: how developers collaborate, how contributions are sustained over time, and how funding and social dynamics shape participation. She also studies how developers work with large language models, including a 2026 IEEE Transactions on Software Engineering study of self-admitted generative AI use in open source projects. Her work has appeared in IEEE Transactions on Software Engineering, Empirical Software Engineering, ICSE and IEEE Software, and she is co-chairing the Early Research Achievements track at ICPC 2027.</p>
+        </div>
+      </article>
+    </div>
   </div>
 
   <div class="section-card" id="fees">
