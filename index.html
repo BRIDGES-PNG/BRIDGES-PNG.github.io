@@ -431,10 +431,26 @@ a{color:#0F6F86;}
   }
 
   .speaker-card {
+    align-items: start;
     background: var(--paper);
     border: 1px solid var(--line);
     border-radius: 14px;
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 180px minmax(0, 1fr);
     padding: 1rem;
+  }
+
+  .speaker-photo {
+    margin: 0;
+  }
+
+  .speaker-photo img {
+    aspect-ratio: 4 / 5;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    width: 100%;
   }
 
   .speaker-card h3 {
@@ -577,6 +593,8 @@ a{color:#0F6F86;}
   @media (max-width: 720px) {
     .masthead { padding: 1.5rem; }
     .highlight-grid { grid-template-columns: 1fr; }
+    .speaker-card { grid-template-columns: 1fr; }
+    .speaker-photo { margin: 0 auto; max-width: 220px; width: 100%; }
     .title-lockup {
       grid-template-columns: 1fr;
       gap: 1.25rem;
@@ -742,6 +760,9 @@ a{color:#0F6F86;}
     <h3 class="speaker-group-heading">Keynote Speaker</h3>
     <div class="speaker-list">
       <article class="speaker-card">
+        <figure class="speaker-photo">
+          <a href="https://www.marccheong.com/"><img src="img/speakers/marc-cheong.jpg" alt="Dr. Marc Cheong" width="180" height="225" loading="lazy"></a>
+        </figure>
         <div>
           <h3>Dr. Marc Cheong</h3>
           <p class="speaker-position">Senior Lecturer in Information Systems (Digital Ethics), University of Melbourne, Australia</p>
@@ -753,6 +774,9 @@ a{color:#0F6F86;}
     <h3 class="speaker-group-heading">International Guests</h3>
     <div class="speaker-list">
       <article class="speaker-card">
+        <figure class="speaker-photo">
+          <a href="https://sdlab.naist.jp/en/authors/yutaro-kashiwa/"><img src="img/speakers/yutaro-kashiwa.jpg" alt="Prof. Yutaro Kashiwa" width="180" height="225" loading="lazy"></a>
+        </figure>
         <div>
           <h3><a href="https://sdlab.naist.jp/en/authors/yutaro-kashiwa/">Prof. Yutaro Kashiwa</a></h3>
           <p class="speaker-position">Associate Professor, Software Design and Analysis Laboratory, Nara Institute of Science and Technology (NAIST), Japan</p>
@@ -761,6 +785,9 @@ a{color:#0F6F86;}
       </article>
 
       <article class="speaker-card">
+        <figure class="speaker-photo">
+          <a href="https://igor.pro.br/"><img src="img/speakers/igor-steinmacher.jpg" alt="Prof. Igor Steinmacher" width="180" height="225" loading="lazy"></a>
+        </figure>
         <div>
           <h3>Prof. Igor Steinmacher</h3>
           <p class="speaker-position">Associate Professor and Associate Director for Graduate Programs, Northern Arizona University, USA</p>
@@ -769,6 +796,9 @@ a{color:#0F6F86;}
       </article>
 
       <article class="speaker-card">
+        <figure class="speaker-photo">
+          <a href="https://sel.ist.osaka-u.ac.jp/people/index.html.en"><img src="img/speakers/yoshiki-higo.jpg" alt="Prof. Yoshiki Higo" width="180" height="225" loading="lazy"></a>
+        </figure>
         <div>
           <h3><a href="https://sites.google.com/view/yhigo/home">Prof. Yoshiki Higo</a></h3>
           <p class="speaker-position">Professor, Software Engineering Laboratory, Graduate School of Information Science and Technology, The University of Osaka, Japan</p>
@@ -780,6 +810,9 @@ a{color:#0F6F86;}
     <h3 class="speaker-group-heading">Organisers</h3>
     <div class="speaker-list">
       <article class="speaker-card">
+        <figure class="speaker-photo">
+          <a href="https://sel.ist.osaka-u.ac.jp/people/index.html.en"><img src="img/speakers/raula-kula.jpg" alt="Prof. Raula Gaikovina Kula" width="180" height="225" loading="lazy"></a>
+        </figure>
         <div>
           <h3><a href="https://raux.github.io/about/">Prof. Raula Gaikovina Kula</a></h3>
           <p class="speaker-position">Professor, Graduate School of Information Science and Technology, The University of Osaka, Japan</p>
@@ -788,6 +821,9 @@ a{color:#0F6F86;}
       </article>
 
       <article class="speaker-card">
+        <figure class="speaker-photo">
+          <a href="https://fanyoumei.github.io/"><img src="img/speakers/youmei-fan.jpg" alt="Prof. Youmei Fan" width="180" height="225" loading="lazy"></a>
+        </figure>
         <div>
           <h3><a href="https://fanyoumei.github.io/">Prof. Youmei Fan</a></h3>
           <p class="speaker-position">Assistant Professor, Software Engineering Laboratory, Nara Institute of Science and Technology (NAIST), Japan</p>
