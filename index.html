@@ -244,6 +244,43 @@ a{color:#0F6F86;}
     font-style: italic;
   }
 
+  .theme-title {
+    color: var(--navy);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin: 0 0 1rem;
+  }
+
+  .theme-copy p {
+    margin: 0 0 0.9rem;
+  }
+
+  .theme-copy h3 {
+    color: var(--navy);
+    margin: 1.25rem 0 0.55rem;
+  }
+
+  .theme-objectives {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .theme-objectives li {
+    margin: 0.35rem 0;
+    padding-left: 0.2rem;
+  }
+
+  .theme-legacy {
+    background: var(--soft-blue);
+    border-left: 5px solid var(--teal);
+    padding: 0.85rem 1rem;
+  }
+
+  .theme-legacy p {
+    margin: 0;
+  }
+
   .venue-name {
     color: var(--navy);
     font-size: 1.2rem;
@@ -393,10 +430,144 @@ a{color:#0F6F86;}
   }
 
 
-  .program-block {
+  .program-day-section {
+    margin-top: 1.35rem;
+  }
+
+  .program-day-heading {
+    border-bottom: 3px solid var(--teal);
+    color: var(--navy);
+    font-size: 1.08rem;
+    margin: 0 0 0.45rem;
+    padding: 0 0 0.4rem;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .program-table {
+    margin: 0;
+    table-layout: fixed;
+  }
+
+  .program-table th,
+  .program-table td {
+    border-color: var(--line);
+    border-left: 0;
+    border-right: 0;
+    padding: 0.55rem 0.7rem;
+    vertical-align: top;
+  }
+
+  .program-table th {
+    background: var(--soft-blue);
+    color: var(--navy);
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .program-table th:first-child,
+  .program-table td:first-child {
+    color: var(--navy);
+    font-weight: 700;
+    width: 30%;
+  }
+
+  .program-table tbody tr:nth-child(even) td {
+    background: #FBFDFD;
+  }
+
+  .program-table .program-break td {
+    background: var(--sand);
+  }
+
+  .program-departure {
+    background: var(--soft-blue);
     border-left: 4px solid var(--teal);
-    padding-left: 1rem;
-    margin: 1rem 0;
+    color: var(--navy);
+    font-weight: 700;
+    padding: 0.75rem 0.9rem;
+  }
+
+  .program-download {
+    align-items: center;
+    background: var(--sand);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--gold);
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  .program-download h3 {
+    color: var(--navy);
+    margin: 0 0 0.2rem;
+  }
+
+  .program-download p {
+    margin: 0;
+  }
+
+  .program-download-button {
+    align-items: center;
+    background: var(--ocean);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font: inherit;
+    font-weight: 700;
+    gap: 0.5rem;
+    padding: 0.7rem 0.9rem;
+    text-decoration: none;
+  }
+
+  .program-download-button:hover {
+    background: var(--navy);
+    color: #FFFFFF;
+  }
+
+  .program-download-button svg {
+    fill: none;
+    height: 18px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    width: 18px;
+  }
+
+  .sponsor-grid {
+    align-items: stretch;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    margin-top: 1rem;
+  }
+
+  .sponsor-card {
+    align-items: center;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    min-height: 120px;
+    padding: 1rem;
+  }
+
+  .sponsor-card img {
+    display: block;
+    height: auto;
+    max-height: 90px;
+    max-width: 100%;
+    object-fit: contain;
   }
 
   table {
@@ -593,6 +764,11 @@ a{color:#0F6F86;}
   @media (max-width: 720px) {
     .masthead { padding: 1.5rem; }
     .highlight-grid { grid-template-columns: 1fr; }
+    .program-table { font-size: 0.9rem; }
+    .program-table th, .program-table td { padding: 0.5rem; }
+    .program-table th:first-child, .program-table td:first-child { width: 38%; }
+    .program-download { align-items: flex-start; flex-direction: column; }
+    .program-download-button { width: 100%; justify-content: center; }
     .speaker-card { grid-template-columns: 1fr; }
     .speaker-photo { margin: 0 auto; max-width: 220px; width: 100%; }
     .title-lockup {
@@ -638,10 +814,12 @@ a{color:#0F6F86;}
   <nav class="simple-nav" aria-label="Website sections">
     <a class="brand-link" href="#workshop-logo"><img src="img/BRIDGES27_logo%20text.png" alt="BRIDGES 2027"></a>
     <a href="#about">About</a>
+    <a href="#theme">2027 Theme</a>
     <a href="#focus-areas">Focus Areas</a>
     <a href="#venue">Venue</a>
     <a href="#program">Program</a>
     <a href="#participants">Registration</a>
+    <a href="#sponsors">Sponsors</a>
     <a href="#team">Team</a>
     <a href="#past-editions">Previous BRIDGES</a>
   </nav>
@@ -693,13 +871,43 @@ a{color:#0F6F86;}
   </header>
 
   <div class="section-card" id="about">
-    <h2>About BRIDGES 2027</h2>
+    <h2>About BRIDGES</h2>
     <div class="accent-line"></div>
     <p>
       The Summer School is designed to provide participants with practical software solutions in a unique
       region of the world, while advancing the goal of making software engineering universal—accessible
       to anyone, anywhere, without technical, cultural, or educational barriers.
     </p>
+  </div>
+
+  <div class="section-card" id="theme">
+    <h2>BRIDGES 2027 Theme</h2>
+    <div class="accent-line"></div>
+    <p class="theme-title">BRIDGES Summer School in the South Pacific: Building a Digital App Ecosystem with Agentic AI Technologies</p>
+
+    <div class="theme-copy">
+      <p>Through GitHub Pages, the BRIDGES Summer School will establish an open digital hub where participants from Papua New Guinea can publish and showcase AI-enabled applications, prototypes, ideas, and project outcomes. The hub will demonstrate how accessible, open-source technologies can address locally relevant needs while respecting Papua New Guinea’s regulations, cultures, languages, data sovereignty, and social contexts.</p>
+
+      <p>Beyond serving as a repository of results, the hub will create a shared digital space for collaboration, learning, and innovation. It will promote the talents of Papua New Guineans across generations, connect participants with wider technical and professional communities, and make locally developed solutions visible to national and international audiences.</p>
+
+      <p>The platform can become a sustainable foundation for future BRIDGES Summer Schools and related initiatives. It can support recruitment, public engagement, education, partnership building, and the continued development of a Papua New Guinean digital-app ecosystem powered by responsible agentic AI.</p>
+
+      <h3>Key Objectives</h3>
+      <ul class="theme-objectives">
+        <li>Develop practical AI-enabled applications addressing PNG-specific opportunities and challenges.</li>
+        <li>Teach participants to use agentic AI and open-source technologies safely and responsibly.</li>
+        <li>Publish reusable code, demonstrations, learning materials, and project documentation.</li>
+        <li>Showcase PNG talent, knowledge, cultures, languages, and innovation.</li>
+        <li>Encourage collaboration among students, educators, communities, government, industry, and international partners.</li>
+        <li>Build a lasting online presence for BRIDGES projects and future participants.</li>
+        <li>Promote responsible innovation through attention to privacy, security, accessibility, cultural sensitivity, and data sovereignty.</li>
+      </ul>
+
+      <h3>Expected Legacy</h3>
+      <div class="theme-legacy">
+        <p>The digital hub will function not only as a record of the Summer School but also as a growing living portfolio of PNG-led digital innovation—a common ground where people can meet, learn, collaborate, and build within the global digital community.</p>
+      </div>
+    </div>
   </div>
 
   <div class="section-card" id="focus-areas">
@@ -748,9 +956,85 @@ a{color:#0F6F86;}
   </div>
 
   <div class="section-card" id="program">
-    <h2>Overview of Program</h2>
+    <h2>BRIDGES 2027 Program</h2>
     <div class="accent-line"></div>
-    <p class="placeholder">Detailed BRIDGES 2027 program coming soon.</p>
+    <section class="program-day-section">
+      <h3 class="program-day-heading">Day 1 — Saturday, 9 January 2027</h3>
+      <div class="table-wrap">
+        <table class="program-table">
+          <thead><tr><th>Session</th><th>Activity</th></tr></thead>
+          <tbody>
+            <tr><td>07:00–09:00</td><td>Breakfast, arrivals and preparations</td></tr>
+            <tr><td>09:00–10:00</td><td>Activity 1 and group work</td></tr>
+            <tr><td>10:00–10:15</td><td>Morning tea break</td></tr>
+            <tr><td>10:15–11:15</td><td>Activity 2 and group work</td></tr>
+            <tr class="program-highlight"><td>11:15–12:00</td><td>Keynote address and recap</td></tr>
+            <tr class="program-break"><td>12:00–13:00</td><td>Lunch</td></tr>
+            <tr><td>13:00–14:00</td><td>Activity 3 and group work</td></tr>
+            <tr class="program-break"><td>14:00–14:15</td><td>Afternoon tea break</td></tr>
+            <tr class="program-highlight"><td>14:15–14:45</td><td>Group presentations</td></tr>
+            <tr><td>14:45 onwards</td><td>Networking, departures and facilitator activities</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="program-day-section">
+      <h3 class="program-day-heading">Day 2 — Sunday, 10 January 2027</h3>
+      <div class="table-wrap">
+        <table class="program-table">
+          <thead><tr><th>Session</th><th>Activity</th></tr></thead>
+          <tbody>
+            <tr><td>07:00–09:00</td><td>Breakfast, arrivals and preparations</td></tr>
+            <tr><td>09:00–10:00</td><td>Activity 4 and group work</td></tr>
+            <tr><td>10:00–10:15</td><td>Morning tea break</td></tr>
+            <tr><td>10:15–11:15</td><td>Activity 5 and group work</td></tr>
+            <tr class="program-highlight"><td>11:15–12:00</td><td>International speaker 1 and recap</td></tr>
+            <tr class="program-break"><td>12:00–13:00</td><td>Lunch</td></tr>
+            <tr><td>13:00–14:00</td><td>Activity 6 and group work</td></tr>
+            <tr class="program-break"><td>14:00–14:15</td><td>Afternoon tea break</td></tr>
+            <tr class="program-highlight"><td>14:15–14:45</td><td>Group presentations</td></tr>
+            <tr><td>14:45 onwards</td><td>Networking, departures and facilitator activities</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="program-day-section">
+      <h3 class="program-day-heading">Day 3 — Monday, 11 January 2027</h3>
+      <div class="table-wrap">
+        <table class="program-table">
+          <thead><tr><th>Session</th><th>Activity</th></tr></thead>
+          <tbody>
+            <tr><td>07:00–09:00</td><td>Breakfast, arrivals and preparations</td></tr>
+            <tr class="program-highlight"><td>09:00–10:00</td><td>Group 1–3 presentations and evaluations</td></tr>
+            <tr><td>10:00–10:15</td><td>Morning tea break</td></tr>
+            <tr class="program-highlight"><td>10:15–11:15</td><td>Group 4–5 presentations and evaluations</td></tr>
+            <tr class="program-highlight"><td>11:15–12:00</td><td>International speaker 2, judges' feedback and awards</td></tr>
+            <tr class="program-break"><td>12:00–13:00</td><td>Lunch</td></tr>
+            <tr><td>13:00–14:00</td><td>Island visit</td></tr>
+            <tr><td>14:00–14:45</td><td>Closing and closing remarks</td></tr>
+            <tr><td>14:45 onwards</td><td>Departures and optional facilitator activities</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="program-day-section">
+      <h3 class="program-day-heading">Day 4 — Tuesday, 12 January 2027</h3>
+      <div class="program-departure">Guest Departures</div>
+    </section>
+
+    <div class="program-download">
+      <div>
+        <h3>Full Workshop Program</h3>
+        <p>All four days, including detailed session times and activities.</p>
+      </div>
+      <a class="program-download-button" href="assets/docs/BRIDGES_2027_Full_Program.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
+        View Full Program (PDF)
+      </a>
+    </div>
   </div>
 
   <div class="section-card" id="speakers">
@@ -849,6 +1133,13 @@ a{color:#0F6F86;}
         <div class="registration-note">Application details and deadlines will be announced here.</div>
       </div>
     </div>
+  </div>
+
+  <div class="section-card" id="sponsors">
+    <h2>Sponsors</h2>
+    <div class="accent-line"></div>
+    <p class="placeholder">BRIDGES 2027 sponsors and supporting organizations will be announced soon.</p>
+    <div class="sponsor-grid" aria-label="BRIDGES 2027 sponsor logos"></div>
   </div>
 
   <div class="section-card" id="team">
