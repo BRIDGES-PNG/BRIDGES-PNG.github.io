@@ -152,7 +152,7 @@ a{color:#0F6F86;}
 
   .status-row {
     display: grid;
-    grid-template-columns: minmax(0, 34fr) minmax(0, 36fr) minmax(0, 30fr);
+    grid-template-columns: minmax(0, 31fr) minmax(0, 31fr) minmax(0, 38fr);
     gap: 0;
     margin-top: 1.7rem;
     max-width: 900px;
@@ -169,6 +169,10 @@ a{color:#0F6F86;}
 
   .status-item:first-child {
     padding-left: 0;
+  }
+
+  .registration-status-item {
+    padding-right: 0;
   }
 
   .status-item + .status-item::before {
@@ -646,6 +650,31 @@ a{color:#0F6F86;}
     margin-top: 0.25rem;
   }
 
+  .registration-copy {
+    margin-top: 0.75rem;
+  }
+
+  .registration-copy p + p {
+    margin-top: 0.75rem;
+  }
+
+  .registration-button {
+    align-items: center;
+    background: var(--ocean);
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: inline-flex;
+    font-weight: 800;
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+  }
+
+  .registration-button:hover {
+    background: var(--navy);
+    color: #FFFFFF;
+  }
+
   .footer-contact {
     background: #073B4C;
     color: #FFFFFF;
@@ -812,13 +841,13 @@ a{color:#0F6F86;}
                   <div class="status-value">Loloata Island Resort</div>
                 </div>
               </div>
-              <div class="status-item">
+              <div class="status-item registration-status-item">
                 <span class="status-icon" aria-hidden="true">
                   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 8v4l3 2"></path></svg>
                 </span>
                 <div>
                   <div class="status-label">Registration</div>
-                  <div class="status-value">Coming soon</div>
+                  <div class="status-value">Now Open</div>
                 </div>
               </div>
             </div>
@@ -1055,9 +1084,12 @@ a{color:#0F6F86;}
     <div class="accent-line"></div>
     <div class="apply-box">
       <div class="registration-status">
-        <div class="registration-label">Registration</div>
-        <div class="registration-value">Coming soon</div>
-        <div class="registration-note">Application details and deadlines will be announced here.</div>
+        <h3>Registration Now Open!</h3>
+        <div class="registration-copy">
+          <p>Interested in joining BRIDGES 2027? Register today for the opportunity to explore digital innovation and Agentic AI technologies!</p>
+          <p>A registration fee of <strong>K100 per student</strong> will be charged upon acceptance of the application. Following the screening process, the organizers will notify successful applicants using the contact details provided.</p>
+        </div>
+        <a class="registration-button" href="https://forms.gle/kNGwGddR6uh5ybVPA" target="_blank" rel="noopener">Register Now</a>
       </div>
     </div>
   </div>
