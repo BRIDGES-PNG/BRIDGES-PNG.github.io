@@ -505,35 +505,74 @@ a{color:#0F6F86;}
     width: 18px;
   }
 
-  .sponsor-grid {
-    align-items: stretch;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    margin-top: 1rem;
+  .sponsor-tiers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    margin-top: 1.5rem;
   }
 
-  .sponsor-card {
+  .sponsor-grid {
     align-items: center;
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    box-sizing: border-box;
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-items: center;
+  }
+
+  .sponsor-entry {
+    align-items: center;
     display: flex;
     justify-content: center;
-    justify-self: start;
-    max-width: 480px;
-    min-height: 160px;
-    padding: 1rem;
     width: 100%;
   }
 
-  .sponsor-card img {
+  .sponsor-logo-area {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+
+  .sponsor-logo-area img {
     display: block;
     height: auto;
-    max-height: 130px;
     max-width: 100%;
     object-fit: contain;
+  }
+
+  .sponsor-tier--platinum .sponsor-entry {
+    max-width: 520px;
+  }
+
+  .sponsor-tier--platinum .sponsor-logo-area img {
+    max-height: 175px;
+  }
+
+  .sponsor-tier--gold .sponsor-entry {
+    max-width: 460px;
+  }
+
+  .sponsor-tier--gold .sponsor-logo-area img {
+    max-height: 150px;
+  }
+
+  .sponsor-tier--silver .sponsor-entry {
+    max-width: 400px;
+  }
+
+  .sponsor-tier--silver .sponsor-logo-area img {
+    max-height: 135px;
+  }
+
+  .sponsor-tier--bronze .sponsor-entry {
+    max-width: 320px;
+  }
+
+  .sponsor-tier--bronze .sponsor-logo-area img {
+    max-height: 115px;
   }
 
   table {
@@ -760,6 +799,13 @@ a{color:#0F6F86;}
     .program-table th:first-child, .program-table td:first-child { width: 38%; }
     .program-download { align-items: flex-start; flex-direction: column; }
     .program-download-button { width: 100%; justify-content: center; }
+    .sponsor-tiers { gap: 1.5rem; }
+    .sponsor-grid { grid-template-columns: 1fr; }
+    .sponsor-logo-area { padding: 0.4rem 0.75rem; }
+    .sponsor-tier--platinum .sponsor-entry { max-width: 420px; }
+    .sponsor-tier--platinum .sponsor-logo-area img { max-height: 145px; }
+    .sponsor-tier--bronze .sponsor-entry { max-width: 260px; }
+    .sponsor-tier--bronze .sponsor-logo-area img { max-height: 100px; }
     .speaker-card { grid-template-columns: 1fr; }
     .speaker-photo { margin: 0 auto; max-width: 220px; width: 100%; }
     .title-lockup {
@@ -1089,14 +1135,10 @@ a{color:#0F6F86;}
   </div>
 
   <div class="section-card" id="sponsors">
-    <h2>Sponsors</h2>
+    <h2>Our Sponsors</h2>
     <div class="accent-line"></div>
-    <p>BRIDGES 2027 is supported by:</p>
-    <div class="sponsor-grid" aria-label="BRIDGES 2027 sponsor logos">
-      <div class="sponsor-card">
-        <img src="img/sponsors/sigsoft.png" alt="SIGSOFT — Special Interest Group on Software Engineering" loading="lazy">
-      </div>
-    </div>
+    <p>Proudly supporting BRIDGES 2027</p>
+    <div class="sponsor-tiers" id="sponsor-tiers" aria-label="BRIDGES 2027 sponsors"></div>
   </div>
 
   <div class="section-card" id="team">
@@ -1138,5 +1180,52 @@ a{color:#0F6F86;}
     </div>
   </div>
 </div>
+<script>
+  const sponsors = [
+    {
+      name: "SIGSOFT",
+      tier: "platinum",
+      logo: "img/sponsors/sigsoft.png"
+    },
+    {
+      name: "Gardie Technologies Ltd",
+      tier: "bronze",
+      logo: "img/sponsors/gardie-technologies.png"
+    }
+  ];
+
+  const sponsorshipTiers = ["platinum", "gold", "silver", "bronze"];
+  const sponsorTiersRoot = document.getElementById("sponsor-tiers");
+
+  sponsorshipTiers.forEach((tier) => {
+    const tierSponsors = sponsors.filter((sponsor) => sponsor.tier === tier);
+    if (!tierSponsors.length) return;
+
+    const tierSection = document.createElement("div");
+    tierSection.className = `sponsor-tier sponsor-tier--${tier}`;
+
+    const grid = document.createElement("div");
+    grid.className = "sponsor-grid";
+
+    tierSponsors.forEach((sponsor) => {
+      const sponsorEntry = document.createElement("div");
+      sponsorEntry.className = "sponsor-entry";
+
+      const logoArea = document.createElement("div");
+      logoArea.className = "sponsor-logo-area";
+
+      const logo = document.createElement("img");
+      logo.src = sponsor.logo;
+      logo.alt = `${sponsor.name} logo`;
+      logo.loading = "lazy";
+      logoArea.appendChild(logo);
+      sponsorEntry.appendChild(logoArea);
+      grid.appendChild(sponsorEntry);
+    });
+
+    tierSection.appendChild(grid);
+    sponsorTiersRoot.appendChild(tierSection);
+  });
+</script>
 </body>
 </html>
